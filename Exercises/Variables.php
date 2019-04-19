@@ -1,7 +1,9 @@
 <?php
 
-/*	Variables - PHP (exercise)
-	github.com/contatofnog */
+/*
+  * [PHP] Variables (exercise)
+  * github.com/contatofnog
+*/
 
 // Data types
 

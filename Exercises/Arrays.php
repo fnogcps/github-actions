@@ -1,7 +1,9 @@
 <?php
 
-/*	Arrays - PHP (exercise)
-	github.com/contatofnog */
+/*
+  * [PHP] Arrays (exercise)
+  * github.com/contatofnog
+*/
 
 // Numeric array
 

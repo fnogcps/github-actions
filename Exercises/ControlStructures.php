@@ -1,7 +1,9 @@
 <?php
 
-/*	Control Structures - PHP (exercise)
-	github.com/contatofnog */
+/*
+  * [PHP] Control Structures (exercise)
+  * github.com/contatofnog
+*/
 
 $a = 10;
 $b = 25;

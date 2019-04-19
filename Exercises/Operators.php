@@ -1,7 +1,9 @@
 <?php
 
-/*	Operators - PHP (exercise)
-	github.com/contatofnog */
+/*
+  * [PHP] Operators (exercise)
+  * github.com/contatofnog
+*/
 
 $x = 45;
 $y = 15;

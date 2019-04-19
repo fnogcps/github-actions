@@ -1,7 +1,9 @@
 <?php
 
-/*	Array Functions - PHP (exercise)
-	github.com/contatofnog */
+/*
+  * [PHP] Array Functions (exercise)
+  * github.com/contatofnog
+*/
 
 $arr = ["strawberry", "blackberry", "raspberry"];
 $arr2 = ["pineapple", "lemon", "melon"];

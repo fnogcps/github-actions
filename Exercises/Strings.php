@@ -1,7 +1,9 @@
 <?php
 
-/*	Strings - PHP (exercise)
-	github.com/contatofnog */
+/*
+  * [PHP] Strings (exercise)
+  * github.com/contatofnog
+*/
 
 $str = "word";
 

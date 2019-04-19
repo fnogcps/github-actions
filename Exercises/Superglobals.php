@@ -1,7 +1,9 @@
 <?php
 
-/*	Superglobals - PHP (exercise)
-	github.com/contatofnog */
+/*
+  * [PHP] Superglobals (exercise)
+  * github.com/contatofnog
+*/
 
 $a = 30;
 $b = 10;

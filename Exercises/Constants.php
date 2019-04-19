@@ -1,7 +1,9 @@
 <?php
 
-/*	Constants - PHP (exercise)
-	github.com/contatofnog */
+/*
+  * [PHP] Constants (exercise)
+  * github.com/contatofnog
+*/
 
 // Constant example
 
