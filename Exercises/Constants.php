@@ -10,6 +10,10 @@
 define(NUMBER, 500);
 echo "NUMBER is equal to ". NUMBER;
 
+if(defined('NUMBER')) {
+  echo "<br>NUMBER was declared";
+}
+
 // PHP Magic constants
 
 echo "<h2>PHP Magic constants</h2>";
