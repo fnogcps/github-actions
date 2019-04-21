@@ -24,4 +24,17 @@ echo '<br>(file) Line 0> '. $content[0];
 echo '<br>(file) Line 2> '. $content[1];
 echo '<br>(file) Line 3> '. $content[2];
 
-echo '<br>(file_get_contents) '. file_get_contents('test.txt');
+echo '<br>(file_get_contents) '. file_get_contents('test.txt') .'<br>';
+
+copy('test.txt', 'copy.txt');
+rename('copy.txt', 'example.txt');
+
+if(file_exists('example.txt')) {
+  echo "<br>example.txt was found!";
+}
+
+unlink('example.txt');
+
+if(!file_exists('example.txt')) {
+  echo "<br>example.txt was deleted!";
+}
