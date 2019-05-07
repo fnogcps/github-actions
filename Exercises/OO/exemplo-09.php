@@ -14,9 +14,9 @@ class Gato {
 }
 
 $animal = new Gato();
-$animal->cor = "Cinza";
+$animal->cor = "cinza";
 
 $clone = clone $animal;
 
-echo '$animal: '. $animal->cor;
-echo '<br>$clone: '. $clone->cor;
+echo "O animal é $animal->cor";
+echo "<br>O animal é $clone->cor";
