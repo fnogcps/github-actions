@@ -1,7 +1,7 @@
 <?php
 
 /*
-  * [PHP] Herança (aula)
+  * [PHP] Herança (exercício)
   * github.com/contatofnog
 */
 

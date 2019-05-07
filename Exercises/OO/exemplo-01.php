@@ -1,12 +1,11 @@
 <?php
 
 /*
-  * [PHP] Classes, Atributos e Métodos (exercício)
+  * [PHP] Classes, atributos e métodos (exercício)
   * github.com/contatofnog
 */
 
 class Cachorro {
-
   public $raca;
   public $cor;
 

@@ -1,7 +1,7 @@
 <?php
 
 /*
-  * [PHP] Getters e Setters (exercício)
+  * [PHP] Getters e setters (exercício)
   * github.com/contatofnog
 */
 
@@ -10,7 +10,7 @@ class Login {
   public $email;
   public $pass;
 
-  public function setLogin($e) {
+  public function atribuirLogin($e) {
     $this->email = $e;
   }
 
@@ -20,5 +20,5 @@ class Login {
 }
 
 $usuario = new Login();
-$usuario->setLogin('teste@exemplo.com');
+$usuario->atribuirLogin('teste@exemplo.com');
 $usuario->getLogin();
