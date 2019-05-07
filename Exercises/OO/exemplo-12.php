@@ -29,4 +29,4 @@ $dados = array(
   'freq' => $newsletter->freq
 );
 
-echo var_dump($dados);
+var_dump($dados);
