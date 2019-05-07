@@ -9,11 +9,11 @@ class Cavalo {
   public $nome;
   public $cor;
 
-  public function setNome($nome) {
+  public function atribuirNome($nome) {
     $this->nome = $nome;
   }
 
-  public function setCor($cor) {
+  public function atribuirCor($cor) {
     $this->cor = $cor;
   }
 }
@@ -23,8 +23,8 @@ class outraClasse {
 
   function __construct($nome, $cor) {
     $this->cavalo = new Cavalo();
-    $this->cavalo->setNome($nome);
-    $this->cavalo->setCor($cor);
+    $this->cavalo->atribuirNome($nome);
+    $this->cavalo->atribuirCor($cor);
   }
 
   public function exibirCavalo() {
