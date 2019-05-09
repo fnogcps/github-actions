@@ -1,7 +1,9 @@
 <?php
 
-/*	File Functions - PHP (exercise)
-	github.com/contatofnog */
+/*
+  * [PHP] File Functions (exercise)
+  * github.com/contatofnog
+*/
 
 $filename = '/srv/www/apache/php/FileFunctions.php';
 
