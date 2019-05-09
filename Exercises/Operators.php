@@ -1,77 +1,76 @@
 <?php
 
 /*
-  * [PHP] Operators (exercise)
+  * [PHP] Operadores (exercício)
   * github.com/contatofnog
 */
 
 $x = 45;
 $y = 15;
 
-echo "Value (x): $x";
-echo "<br>Value (y): $y";
+echo "Valor (x): $x";
+echo "<br>Valor (y): $y";
 
-// Arithmetic operators
+// Operadores aritméticos
+echo "<h2>Operadores aritméticos</h2>";
 
-echo "<h2>Arithmetic operators</h2>";
+echo "Adição: ". ($x + $y);
+echo "<br>Subtração: ". ($x - $y);
+echo "<br>Multiplicação: ". ($x * $y);
+echo "<br>Divisão: ". ($x / $y);
+echo "<br>Módulo: ". ($x % $y);
+echo "<br>Exponenciação: ". ($x ** $y);
 
-echo "Addition: ". ($x + $y);
-echo "<br>Subtraction: ". ($x - $ys);
-echo "<br>Multiplication: ". ($x * $y);
-echo "<br>Division: ". ($x / $y);
-echo "<br>Module: ". ($x % $y);
-echo "<br>Exponentiation: ". ($x ** $y);
+// Operadores de comparação
+echo "<h2>Operadores de comparação</h2>";
 
-// Comparison operators
+# Igual
+if($x == $y) echo "$x é igual a $y <br>";
 
-echo "<h2>Comparison operators</h2>";
+# Idêntico
+if($x === $y) echo "$x e $y são iguais e são do mesmo tipo <br>";
 
-# Equal/Identical
+# Não igual
+if($x != $y) echo "$x não é igual a $y <br>";
 
-if($x == $y) echo "$x is equal to $y <br>";
-if($x === $y) echo "$x is equal to $y, and they are of the same type <br>";
+# Não idêntico
+if($x !== $y) echo "$x e $y não são iguais ou não são tipo <br>";
 
-# Not equal/Not identical
+# Maior que
+if($x > $y) echo "$x é maior que $y <br>";
 
-if($x != $y) echo "$x is not equal to $y <br>";
-if($x !== $y) echo "$x is not equal to $y, or they are not of the same type <br>";
+# Maior ou igual
+if($x >= $y) echo "$x é maior ou igual a $y <br>";
 
-# Greater than
+# Menor que
+if($x < $y) echo "$x é menor que $y <br>";
 
-if($x > $y) echo "$x is greater than $y <br>";
-if($x >= $y) echo "$x is greater than or equal to $y <br>";
+# Menor ou igual
+if($x <= $y) echo "$x é menor ou igual a $y <br>";
 
-# Less than
+// Incremento/Decremento
+echo "<br> Valor (x): $x";
+echo "<br> Valor (y): $y <br>";
 
-if($x < $y) echo "$x is less than $y <br>";
-if($x <= $y) echo "$x is less than or equal to $y <br>";
+echo "<br> <b>[ X ] [Pós-incremento]</b> ". $x++;
+echo "<br> <b>[ X ] [Resultado]</b> $x<br>";
 
-// Increment/Decrement operators
+echo "<br> <b>[ Y ] [Pós-decremento]</b> ". $y--;
+echo "<br> <b>[ Y ] [Resultado]</b> $y<br>";
 
-echo "<br>Value (x): $x";
-echo "<br>Value (y): $y <br>";
+echo "<br> <b>[ X ] [Pré-decremento/Resultado]</b> ". --$x;
+echo "<br> <b>[ Y ] [Pré-incremento/Resultado]</b> ". ++$y;
 
-echo "<br><b>[ X ] [Post-increment]</b> ". $x++;
-echo "<br><b>[ X ] [Result]</b> $x<br>";
+// Operadores lógicos
+echo "<h2>Operadores lógicos (com operador ternário)</h2>";
 
-echo "<br><b>[ Y ] [Post-decrement]</b> ". $y--;
-echo "<br><b>[ Y ] [Result]</b> $y<br>";
+echo "$x > 10 and $x < 50: ", ($x > 10 and $x < 50) ? "<b>Verdadeiro</b>" : "<b>Falso</b>";
+echo "<br> $x > 10 or $x < 50: ", ($x > 10 or $x < 50) ? "<b>Verdadeiro</b>" : "<b>Falso</b>";
+echo "<br> $x > 10 xor $x < 50: ", ($x > 10 xor $x < 50) ? "<b>Verdadeiro</b>" : "<b>Falso</b>";
 
-echo "<br><b>[ X ] [Pre-decrement/Result]</b> ". --$x;
-echo "<br><b>[ Y ] [Pre-increment/Result]</b> ". ++$y;
+// Operadores de atribuição
+echo "<h2>Operadores de atribuição</h2>";
 
-// Logical operators
-
-echo "<h2>Logical operators (with Ternary operator)</h2>";
-
-echo "$x > 10 and $x < 50: ", ($x > 10 and $x < 50) ? "<b>True</b>" : "<b>False</b>";
-echo "<br>$x > 10 or $x < 50: ", ($x > 10 or $x < 50) ? "<b>True</b>" : "<b>False</b>";
-echo "<br>$x > 10 xor $x < 50: ", ($x > 10 xor $x < 50) ? "<b>True</b>" : "<b>False</b>";
-
-// String operators
-
-echo "<h2>String operators</h2>";
-
-# Concatenation assignment
-
-echo "($x .= $y) = ". ($x .= $y);
+echo "$x += 5: <b>". ($x += 5) ."</b>";
+echo "<br> $x -= 5: <b>". ($x -= 5) ."</b>";
+echo "<br> $x .= 10: <b>". ($x .= 10) ."</b>";
