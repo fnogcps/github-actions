@@ -1,31 +1,29 @@
 <?php
 
 /*
-  * [PHP] Variables (exercise)
+  * [PHP] Variáveis (exercício)
   * github.com/contatofnog
 */
 
-// Data types
+// Tipos de dados
+echo "<h2>Tipos de dados</h2>";
 
-echo "<h2>Data types</h2>";
+$int = 10;                # Inteiro
+$float = 2.0;             # Ponto flutuante
+$bool = false;            # Lógico
+$null = null;             # Nulo
+$str = 'Hello, World!';   # String
+$arr = array(1, 2, 3);    # Array
 
-$int = 10;                # Integer
-$float = 2.0;             # Float
-$bool = false;            # Boolean
-$null = null;             # Null
-$str = 'Hello, world!';   # String
-$arr = array();           # Array
+echo '<b>Inteiro:</b> ', var_dump($int);
+echo '<br> <b>Ponto flutuante:</b> ', var_dump($float);
+echo '<br> <b>Lógico:</b> ', var_dump($bool);
+echo '<br> <b>Nulo:</b> ', var_dump($null);
+echo '<br> <b>String:</b> ', var_dump($str);
+echo '<br> <b>Array:</b> ', var_dump($arr);
 
-echo '<b>($i)</b> ', var_dump($int);
-echo '<br><b>($float)</b> ', var_dump($float);
-echo '<br><b>($bool)</b> ', var_dump($bool);
-echo '<br><b>($null)</b> ', var_dump($null);
-echo '<br><b>($str)</b> ', var_dump($str);
-echo '<br><b>($arr)</b> ', var_dump($arr);
-
-// Variable variables
-
-echo "<h2>Variable variables</h2>";
+// Variáveis variáveis
+echo "<h2>Variáveis variáveis</h2>";
 
 $foo = 'baz';
 $$foo = 'bar'; 
@@ -33,9 +31,8 @@ $$foo = 'bar';
 echo '$foo: '. $foo;
 echo '<br>$$foo ($baz): '. $baz;
 
-// Assign by reference
-
-echo "<h2>Assign by reference</h2>";
+// Atribuição por referência
+echo "<h2>Atribuição por referência</h2>";
 
 $foo = 25;
 $bar = &$foo; 
@@ -49,24 +46,23 @@ $foo = 30;
 echo '<br>$foo: '. $foo;
 echo '<br>$bar: '. $bar;
 
-# Resource -> Resources.php
-# Object -> Objects.php
+# tipo Resource -> Resources.php
+# tipo Object -> Objects.php
 
-// Variable Scope
+// Escopo das variáveis
+echo "<h2>Escopo das variáveis</h2>";
 
-echo "<h2>Variable Scope</h2>";
+// Escopo global
+$sobrenome = 'Silva';
 
-// Global scope
-$lastname = 'Does';
-
-function setName() {
-	// Local scope
+function atribuirNome() {
 	
-	global $lastname;
-	global $name;
+  // Escopo local
+	global $sobrenome;
+	global $nome;
 
-	$name = 'John '. $lastname;
+	$nome = 'João '. $sobrenome;
 }
 
-setName();
-echo 'Name: ', $name;
+atribuirNome();
+echo 'Nome: ', $nome;
