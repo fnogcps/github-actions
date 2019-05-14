@@ -1,28 +1,30 @@
 <?php
 
 /*
-  * [PHP] Constants (exercise)
+  * [PHP] Constantes (exercício)
   * github.com/contatofnog
 */
 
-// Constant example
+define(VALUE, 500);
 
-define(NUMBER, 500);
-echo "NUMBER is equal to ". NUMBER;
+// Exemplo de constante
+echo "<h2>Exemplo de constante</h2>";
 
-if(defined('NUMBER')) {
-  echo "<br>NUMBER was declared";
+echo "VALUE é igual a ". VALUE;
+
+if(defined('VALUE')) {
+    echo "<p>A constante VALUE foi declarada</p>";
 }
 
-// PHP Magic constants
+// Constantes mágicas
+echo "<h2>Constantes mágicas</h2>";
 
-echo "<h2>PHP Magic constants</h2>";
+echo "A linha atual do arquivo é ". __LINE__;
+echo "<br>O caminho completo e o nome do arquivo é ". __FILE__;
 
-echo "The current line number of the file is ". __LINE__;
-echo "<br>The full path and filename of the file is ". __FILE__;
-
-function magicConst() {
-	return __FUNCTION__;
+function magicConst()
+{
+    return __FUNCTION__;
 }
 
-echo "<br>The function name is ". magicConst();
+echo "<br>O nome da função é ". magicConst();
