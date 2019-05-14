@@ -8,12 +8,12 @@
 // Tipos de dados
 echo "<h2>Tipos de dados</h2>";
 
-$int = 10;                # Inteiro
-$float = 2.0;             # Ponto flutuante
-$bool = false;            # Lógico
-$null = null;             # Nulo
-$str = 'Hello, World!';   # String
-$arr = array(1, 2, 3);    # Array
+$int = 10;                // Inteiro
+$float = 2.0;             // Ponto flutuante
+$bool = false;            // Lógico
+$null = null;             // Nulo
+$str = 'Hello, World!';   // String
+$arr = array(1, 2, 3);    // Array
 
 echo '<b>Inteiro:</b> ', var_dump($int);
 echo '<br> <b>Ponto flutuante:</b> ', var_dump($float);
@@ -46,8 +46,8 @@ $foo = 30;
 echo '<br>$foo: '. $foo;
 echo '<br>$bar: '. $bar;
 
-# tipo Resource -> Resources.php
-# tipo Object -> Objects.php
+// tipo Resource -> Resources.php
+// tipo Object -> Objects.php
 
 // Escopo das variáveis
 echo "<h2>Escopo das variáveis</h2>";
@@ -55,13 +55,14 @@ echo "<h2>Escopo das variáveis</h2>";
 // Escopo global
 $sobrenome = 'Silva';
 
-function atribuirNome() {
-	
-  // Escopo local
-	global $sobrenome;
-	global $nome;
+function atribuirNome()
+{
+    
+    // Escopo local
+    global $sobrenome;
+    global $nome;
 
-	$nome = 'João '. $sobrenome;
+    $nome = 'João '. $sobrenome;
 }
 
 atribuirNome();
