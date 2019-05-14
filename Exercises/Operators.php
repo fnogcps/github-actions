@@ -24,29 +24,37 @@ echo "<br>Exponenciação: ". ($x ** $y);
 // Operadores de comparação
 echo "<h2>Operadores de comparação</h2>";
 
-# Igual
-if($x == $y) echo "$x é igual a $y <br>";
+// Igual
+if($x == $y) { echo "$x é igual a $y <br>";
+}
 
-# Idêntico
-if($x === $y) echo "$x e $y são iguais e são do mesmo tipo <br>";
+// Idêntico
+if($x === $y) { echo "$x e $y são iguais e são do mesmo tipo <br>";
+}
 
-# Não igual
-if($x != $y) echo "$x não é igual a $y <br>";
+// Não igual
+if($x != $y) { echo "$x não é igual a $y <br>";
+}
 
-# Não idêntico
-if($x !== $y) echo "$x e $y não são iguais ou não são tipo <br>";
+// Não idêntico
+if($x !== $y) { echo "$x e $y não são iguais ou não são tipo <br>";
+}
 
-# Maior que
-if($x > $y) echo "$x é maior que $y <br>";
+// Maior que
+if($x > $y) { echo "$x é maior que $y <br>";
+}
 
-# Maior ou igual
-if($x >= $y) echo "$x é maior ou igual a $y <br>";
+// Maior ou igual
+if($x >= $y) { echo "$x é maior ou igual a $y <br>";
+}
 
-# Menor que
-if($x < $y) echo "$x é menor que $y <br>";
+// Menor que
+if($x < $y) { echo "$x é menor que $y <br>";
+}
 
-# Menor ou igual
-if($x <= $y) echo "$x é menor ou igual a $y <br>";
+// Menor ou igual
+if($x <= $y) { echo "$x é menor ou igual a $y <br>";
+}
 
 // Incremento/Decremento
 echo "<br> Valor (x): $x";
