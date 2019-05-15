@@ -1,26 +1,24 @@
 <?php
 
 /*
-  * [PHP] Diretory Functions (exercise)
+  * [PHP] Funções de diretório (exercício)
   * github.com/contatofnog
 */
 
 $dir = 'exemplo';
 
 if(mkdir($dir, 0777)) {
-  echo "<b>(mkdir)</b> O diretório $dir/ foi criado com sucesso!";
-}
-else {
-  echo "<b>(mkdir)</b> Erro, o diretório $dir/ não foi criado"; 
+    echo "<b>(mkdir)</b> O diretório $dir/ foi criado com sucesso!</p>";
+} else {
+    echo "<b>(mkdir)</b> Erro, o diretório $dir/ não foi criado</p>"; 
 }
 
-echo '<br> <b>(getcwd)</b> '. getcwd();
+echo '<p> <b>(getcwd)</b> Diretório atual: '. getcwd() .'</p>';
 chdir('..');
-echo '<br> <b>(getcwd) ..</b> '. getcwd();
+echo '<p> <b>(getcwd)</b> Diretório atual: '. getcwd() .'</p>';
 
 if(rmdir('exemplo')) {
-  echo "<br> <b>(rmdir)</b> O diretório $dir/ foi removido com sucesso!";
-}
-else {
-  echo "<br> <b>(rmdir)</b> Erro, o diretório $dir/ não foi removido";
+    echo "<p> <b>(rmdir)</b> O diretório $dir/ foi removido com sucesso!</p>";
+} else {
+    echo "<p> <b>(rmdir)</b> Erro, o diretório $dir/ não foi removido</p>";
 }
