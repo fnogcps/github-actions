@@ -1,48 +1,43 @@
 <?php
 
 /*
-  * [PHP] Arrays (exercise)
+  * [PHP] Arrays (exercício)
   * github.com/contatofnog
 */
 
-// Numeric array
+// Array numérico
+echo "<h2>Array numérico</h2>";
 
-echo "<h2>Numeric array</h2>";
-
-$numeric = array(1, 2, 3, 4);
-
-foreach($numeric as $key => $value) {
-   	echo "[$key] $value <br>";
+$arrNum = array(1, 2, 3, 4);
+foreach($arrNum as $indice => $valor) {
+   echo "[$indice] $valor <br>";
 }
 
-// Associative array
+// Array associativo
+echo "<h2>Array associativo</h2>";
 
-echo "<h2>Associative array</h2>";
-
-$assoc = array('a' => 5, 'b' => 6, 'c' => 7, 'd' => 8);
-
-foreach($assoc as $key => $value) {
-   	echo "[$key] $value <br>";
+$arrAssoc = array('a' => 5, 'b' => 6, 'c' => 7, 'd' => 8);
+foreach($arrAssoc as $indice => $valor) {
+   echo "[$indice] $valor <br>";
 }
 
-// Multidimensional array
+// Array multidimensional 
+echo "<h2>Array multidimensional</h2>";
 
-echo "<h2>Multidimensional array</h2>";
+$arrMulti = array(
+  'frutas' => array(
+    'maçã', 'banana', 'abacaxi'
+),
 
-$multi = array(
-	'fruits' => array(
-		'apple', 'banana', 'pineapple'
-	),
-
-	'juices' => array(
-		'orange', 'grape', 'strawberry'
-	)
+  'sucos' => array(
+    'laranja', 'uva', 'morango'
+)
 );
 
-foreach($multi['fruits'] as $key => $value) {
-	echo "[$key] $value <br>";
+foreach($arrMulti['frutas'] as $indice => $valor) {
+  echo "[$indice] $valor <br>";
 }
 
-foreach($multi['juices'] as $key => $value) {
-	echo "<br>[$key] $value";
+foreach($arrMulti['sucos'] as $indice => $valor) {
+  echo "<br>[$indice] $valor";
 }
