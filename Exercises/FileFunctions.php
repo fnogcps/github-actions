@@ -1,36 +1,31 @@
 <?php
 
 /*
-  * [PHP] File Functions (exercise)
+  * [PHP] File Functions (exercício)
   * github.com/contatofnog
 */
 
-$filename = '/srv/www/apache/php/FileFunctions.php';
+$arquivo = '/srv/www/apache/php/FileFunctions.php';
 
-// file_exists()
+// Verifica se o arquivo existe
 
-if(file_exists($filename)) {echo "$filename existe";}
-else {echo "$filename não existe";}
+if(file_exists($arquivo)) {
+    echo "$arquivo existe";
+} else {
+    echo "$arquivo não existe";
+}
 
-// is_file()
+// Verifica se o arquivo existe
 
-if(is_file($filename)) {echo "<br>$filename é um arquivo";}
-else {echo "<br>$filename não é um arquivo";}
+if(is_file($arquivo)) {
+    echo "<br>$arquivo é um arquivo";
+} else {
+    echo "<br>$arquivo não é um arquivo";
+}
 
-// mime_content_type()
-
-echo "<br>MIME: ". mime_content_type($filename);
-
-// basename()
-
-echo "<br>Nome do arquivo: ". basename($filename);
-
-// dirname()
-
-echo "<br>Diretório: ". dirname($filename);
-
-// pathinfo()
+echo "<br>Nome do arquivo: ". basename($arquivo);
+echo "<br>Diretório (com nome do arquivo): ". dirname($arquivo);
 
 echo "<br> Caminho: <pre>";
-var_dump(pathinfo($filename));
+var_dump(pathinfo($arquivo));
 echo "</pre>";
