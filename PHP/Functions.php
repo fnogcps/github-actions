@@ -1,10 +1,5 @@
 <?php
 
-/*
-  * [PHP] Funções (exercício)
-  * github.com/contatofnog
-*/
-
 function Incrementa(&$a)
 {
     $a += 10;
@@ -12,7 +7,7 @@ function Incrementa(&$a)
 
 $a = 90;
 Incrementa($a);
-echo "<b>Incrementa():</b> $a <br>";
+print "Incrementa(): $a \n";
 
 function Ola()
 {
@@ -20,12 +15,12 @@ function Ola()
     $quantidade = func_num_args();
 
     for($i = 0; $i < $quantidade; $i++) {
-        echo '<br>Olá '. $argumentos[$i] .'!';
+        print "\nOlá ". $argumentos[$i] ."!";
     }
 }
 
 Ola('João', 'Maria', 'José', 'Pedro');
-echo '<br>';
+print "\n";
 
 function Fatorial($numero)
 {
@@ -36,5 +31,5 @@ function Fatorial($numero)
     }
 }
 
-echo '<br> <b>Fatorial (5):</b>'. Fatorial(5);
-echo '<br> <b>Fatorial (7):</b> '. Fatorial(7);
+print "\nFatorial (5): ". Fatorial(5);
+print "\nFatorial (7): ". Fatorial(7);
