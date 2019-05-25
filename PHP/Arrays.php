@@ -1,43 +1,35 @@
 <?php
 
-/*
-  * [PHP] Arrays (exercício)
-  * github.com/contatofnog
-*/
-
-// Array numérico
-echo "<h2>Array numérico</h2>";
+print "Exemplo de array numérico:\n";
 
 $arrNum = array(1, 2, 3, 4);
 foreach($arrNum as $indice => $valor) {
-   echo "[$indice] $valor <br>";
+   print "\n[$indice] $valor";
 }
 
-// Array associativo
-echo "<h2>Array associativo</h2>";
+print "\n\nExemplo de array associativo:\n";
 
 $arrAssoc = array('a' => 5, 'b' => 6, 'c' => 7, 'd' => 8);
 foreach($arrAssoc as $indice => $valor) {
-   echo "[$indice] $valor <br>";
+    print "\n[$indice] $valor";
 }
 
-// Array multidimensional 
-echo "<h2>Array multidimensional</h2>";
+print "\n\nExemplo de array multidimensional:\n\n";
 
 $arrMulti = array(
-  'frutas' => array(
-    'maçã', 'banana', 'abacaxi'
-),
+    'frutas' => array(
+        'maçã', 'banana', 'abacaxi'
+    ),
 
-  'sucos' => array(
-    'laranja', 'uva', 'morango'
-)
+    'sucos' => array(
+        'laranja', 'uva', 'morango'
+    )
 );
 
 foreach($arrMulti['frutas'] as $indice => $valor) {
-  echo "[$indice] $valor <br>";
+  print "[$indice] $valor \n";
 }
 
 foreach($arrMulti['sucos'] as $indice => $valor) {
-  echo "<br>[$indice] $valor";
+  print "\n[$indice] $valor";
 }
