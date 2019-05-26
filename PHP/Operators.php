@@ -1,84 +1,64 @@
 <?php
 
-/*
-  * [PHP] Operadores (exercício)
-  * github.com/contatofnog
-*/
-
 $x = 45;
 $y = 15;
 
-echo "Valor (x): $x";
-echo "<br>Valor (y): $y";
+print "Valor (x): $x \n";
+print "Valor (y): $y \n";
 
 // Operadores aritméticos
-echo "<h2>Operadores aritméticos</h2>";
-
-echo "Adição: ". ($x + $y);
-echo "<br>Subtração: ". ($x - $y);
-echo "<br>Multiplicação: ". ($x * $y);
-echo "<br>Divisão: ". ($x / $y);
-echo "<br>Módulo: ". ($x % $y);
-echo "<br>Exponenciação: ". ($x ** $y);
+echo "\n Adição: ". ($x + $y);
+echo "\n Subtração: ". ($x - $y);
+echo "\n Multiplicação: ". ($x * $y);
+echo "\n Divisão: ". ($x / $y);
+echo "\n Módulo: ". ($x % $y);
+echo "\n Exponenciação: ". ($x ** $y) ."\n";
 
 // Operadores de comparação
-echo "<h2>Operadores de comparação</h2>";
-
-// Igual
-if($x == $y) { echo "$x é igual a $y <br>";
+if($x == $y) {
+    echo "\n $x é igual a $y";
 }
-
-// Idêntico
-if($x === $y) { echo "$x e $y são iguais e são do mesmo tipo <br>";
+if($x === $y) {
+    echo "\n $x e $y são iguais e são do mesmo tipo";
 }
-
-// Não igual
-if($x != $y) { echo "$x não é igual a $y <br>";
+if($x != $y) {
+    echo "\n $x não é igual a $y";
 }
-
-// Não idêntico
-if($x !== $y) { echo "$x e $y não são iguais ou não são tipo <br>";
+if($x !== $y) {
+    echo "\n $x e $y não são iguais ou não são tipo";
 }
-
-// Maior que
-if($x > $y) { echo "$x é maior que $y <br>";
+if($x > $y) {
+    echo "\n $x é maior que $y";
 }
-
-// Maior ou igual
-if($x >= $y) { echo "$x é maior ou igual a $y <br>";
+if($x >= $y) {
+    echo "\n $x é maior ou igual a $y";
 }
-
-// Menor que
-if($x < $y) { echo "$x é menor que $y <br>";
+if($x < $y) {
+    echo "\n $x é menor que $y";
 }
-
-// Menor ou igual
-if($x <= $y) { echo "$x é menor ou igual a $y <br>";
+if($x <= $y) {
+    echo "\n $x é menor ou igual a $y";
 }
 
 // Incremento/Decremento
-echo "<br> Valor (x): $x";
-echo "<br> Valor (y): $y <br>";
+echo "\n\n Valor (x): $x";
+echo "\n Valor (y): $y \n";
 
-echo "<br> <b>[ X ] [Pós-incremento]</b> ". $x++;
-echo "<br> <b>[ X ] [Resultado]</b> $x<br>";
+echo "\n [ X ] [Pós-incremento] ". $x++;
+echo "\n [ X ] [Resultado] $x \n";
 
-echo "<br> <b>[ Y ] [Pós-decremento]</b> ". $y--;
-echo "<br> <b>[ Y ] [Resultado]</b> $y<br>";
+echo "\n [ Y ] [Pós-decremento] ". $y--;
+echo "\n [ Y ] [Resultado] $y \n";
 
-echo "<br> <b>[ X ] [Pré-decremento/Resultado]</b> ". --$x;
-echo "<br> <b>[ Y ] [Pré-incremento/Resultado]</b> ". ++$y;
+echo "\n [ X ] [Pré-decremento/Resultado] ". --$x;
+echo "\n [ Y ] [Pré-incremento/Resultado] ". ++$y;
 
-// Operadores lógicos
-echo "<h2>Operadores lógicos (com operador ternário)</h2>";
-
-echo "$x > 10 and $x < 50: ", ($x > 10 and $x < 50) ? "<b>Verdadeiro</b>" : "<b>Falso</b>";
-echo "<br> $x > 10 or $x < 50: ", ($x > 10 or $x < 50) ? "<b>Verdadeiro</b>" : "<b>Falso</b>";
-echo "<br> $x > 10 xor $x < 50: ", ($x > 10 xor $x < 50) ? "<b>Verdadeiro</b>" : "<b>Falso</b>";
+// Operadores lógicos (com operador ternário)
+echo "\n\n $x > 10 and $x < 50: ", ($x > 10 and $x < 50) ? "Verdadeiro" : "Falso";
+echo "\n $x > 10 or $x < 50: ", ($x > 10 or $x < 50) ? "Verdadeiro" : "Falso";
+echo "\n $x > 10 xor $x < 50: ", ($x > 10 xor $x < 50) ? "Verdadeiro" : "Falso";
 
 // Operadores de atribuição
-echo "<h2>Operadores de atribuição</h2>";
-
-echo "$x += 5: <b>". ($x += 5) ."</b>";
-echo "<br> $x -= 5: <b>". ($x -= 5) ."</b>";
-echo "<br> $x .= 10: <b>". ($x .= 10) ."</b>";
+echo "\n $x += 5: ". ($x += 5) ."";
+echo "\n $x -= 5: ". ($x -= 5) ."";
+echo "\n $x .= 10: ". ($x .= 10) ."";
