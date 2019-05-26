@@ -1,63 +1,44 @@
 <?php
 
-/*
-  * [PHP] Array Functions (exercise)
-  * github.com/contatofnog
-*/
+$frutas = ["morango", "acerola", "framboesa"];
+$frutas2 = ["abacaxi", "limão", "melão"];
 
-$arr = ["strawberry", "blackberry", "raspberry"];
-$arr2 = ["pineapple", "lemon", "melon"];
+print "Valores de frutas (primeiro array):\n\n";
+print_r($frutas);
 
-echo '<b>Values ($arr):</b>';
-echo "<pre>", print_r($arr), "</pre>";
-echo '<b>Values ($arr2):</b>';
-echo "<pre>", print_r($arr2), "</pre>";
+print "\nValores de frutas (segundo array):\n\n";
+print_r($frutas2); 
 
-// Checks if a value exists in an array
-echo "<b>Checks if the value 'lemon' exists (in_array): </b>", var_dump(in_array("lemon", $arr)), "<br>";
+print "\nCheca se o valor 'limão' existe no array:\n\n";
+var_dump(in_array("limão", $frutas2));
 
-// Return all the keys or a subset of the keys of an array
-echo "<br><b>array_keys: </b>";
-echo "<pre>", print_r(array_keys($arr)), "</pre>";
+print "\nTodos os índices de frutas (primeiro array):\n\n";
+print_r(array_keys($frutas));
 
-// Return all the values of an array
-echo "<b>array_values: </b>";
-echo "<pre>", print_r(array_values($arr)), "</pre>";
+print "\nTodos os valores de frutas (primeiro array):\n\n";
+print_r(array_values($frutas));
 
-// Creates an array by using one array for keys and another for its values
-$combine = array_combine($arr, $arr2);
-echo "<br><b>array_combine: </b>";
-echo "<pre>", print_r($combine), "</pre>";
+print "\nExemplo de um array combinado:\n\n";
+$combine = array_combine($frutas, $frutas2);
+print_r($combine);
 
-// Fill an array with values
-echo "<b>array_fill: </b>";
-echo "<pre>", print_r(array_fill(0, 3, $arr[0])), "</pre>";
+print "\nExemplo de um array preenchido:\n\n";
+print_r(array_fill(0, 3, $frutas[0]));
 
-// Merge one or more arrays
-echo "<b>array_merge: </b>";
-echo "<pre>", print_r(array_merge($arr, $arr2)), "</pre>";
+print "\nExemplo de um array fundido:\n\n";
+print_r(array_merge($frutas, $frutas2));
 
-// Pop the element off the end of array
-echo "<b>array_pop: </b>";
-echo "<pre>", print_r(array_pop($arr)), "</pre>";
+echo "\nRetirando o primeiro valor do array (primeiro array): ", array_shift($frutas);
+echo "\nRetirando o último valor do array (segundo array): ", array_pop($frutas2);
 
-// Shift an element off the beginning of array
-echo "<b>array_shift: </b>";
-echo "<pre>", print_r(array_shift($arr)), "</pre>";
 
-// Prepend one or more elements to the beginning of an array
-array_unshift($arr, "cherry", "apple", "orange", "banana");
-echo "<b>array_unshift: </b>";
-echo "<pre>", print_r($arr), "</pre>";
+array_push($frutas, "pão", "queijo", "farinha", "ovo");
+echo "\n\nAdicionando outros produtos ao array (primeiro array):\n\n";
+print_r($frutas);
 
-// Push one or more elements onto the end of array
-array_push($arr2, "cherry", "apple", "orange", "banana");
-echo "<b>array_push: </b>";
-echo "<pre>", print_r($arr2), "</pre>";
+array_unshift($frutas2, "cereja", "maçã", "laranja", "banana");
+echo "\nAdicionando mais frutas ao array (segundo array):\n\n";
+print_r($frutas2);
 
-// Creates an array by using one array for keys and another for its values
-$numbers = [1, 5, 10];
-echo "<br><b>array_sum: </b>", array_sum($numbers), "<br>";
-
-// Counts all the values of an array
-echo "<br><b>count: </b>", print_r(count($arr));
+echo "\nSomando os índices do array (primeiro array): ", array_sum(array_keys($frutas));
+echo "\nContando os valores do array (segundo array): ", count($frutas2);
