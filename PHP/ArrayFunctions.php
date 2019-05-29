@@ -31,7 +31,6 @@ print_r(array_merge($frutas, $frutas2));
 echo "\nRetirando o primeiro valor do array (primeiro array): ", array_shift($frutas);
 echo "\nRetirando o último valor do array (segundo array): ", array_pop($frutas2);
 
-
 array_push($frutas, "pão", "queijo", "farinha", "ovo");
 echo "\n\nAdicionando outros produtos ao array (primeiro array):\n\n";
 print_r($frutas);
