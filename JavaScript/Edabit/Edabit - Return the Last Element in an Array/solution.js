@@ -1,1 +1,1 @@
-const getLastItem = (arr) => { return arr.pop() }
+const getLastItem = arr => { return arr.pop() }

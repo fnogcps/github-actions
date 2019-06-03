@@ -1,1 +1,1 @@
-const divisible = num => { return ((num % 100) ? false : true) }
+const divisible = num => { return ((num % 100) == 0) }

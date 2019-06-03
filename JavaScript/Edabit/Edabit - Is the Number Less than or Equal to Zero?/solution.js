@@ -1,1 +1,1 @@
-const lessThanOrEqualToZero = (num) => { return ((num <= 0 ? true : false)) }
+const lessThanOrEqualToZero = num => { return (num <= 0) }
