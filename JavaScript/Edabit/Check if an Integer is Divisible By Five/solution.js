@@ -1,1 +1,1 @@
-const divisibleByFive = n => { return ((n % 5) == 0) }
+const divisibleByFive = n => ((n % 5) == 0)

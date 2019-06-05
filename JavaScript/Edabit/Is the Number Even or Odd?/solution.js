@@ -1,1 +1,1 @@
-const isEvenOrOdd = num => { return ((num % 2) ? "odd" : "even") }
+const isEvenOrOdd = num => ((num % 2) ? "odd" : "even")

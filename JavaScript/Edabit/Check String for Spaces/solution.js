@@ -1,1 +1,1 @@
-const hasSpaces = str => { return str.includes(" ") }
+const hasSpaces = str => str.includes(" ")

@@ -1,1 +1,1 @@
-const nextEdge = (side1, side2) => { return ((side1 + side2) - 1) }
+const nextEdge = (side1, side2) => ((side1 + side2) - 1)

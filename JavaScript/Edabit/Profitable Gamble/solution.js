@@ -1,1 +1,1 @@
-const profitableGamble = (prob, prize, pay) => { return ((prob * prize) > pay) }
+const profitableGamble = (prob, prize, pay) => ((prob * prize) > pay)

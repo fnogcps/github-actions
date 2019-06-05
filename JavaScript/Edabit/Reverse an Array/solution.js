@@ -1,1 +1,1 @@
-const reverse = arr => { return arr.reverse() }
+const reverse = arr => arr.reverse()

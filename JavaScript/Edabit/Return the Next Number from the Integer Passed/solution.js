@@ -1,1 +1,1 @@
-const addition = i => { return (i + 1) }
+const addition = i => (i + 1)

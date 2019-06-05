@@ -1,1 +1,1 @@
-const remainder = (x, y) => { return (x % y) }
+const remainder = (x, y) => (x % y)

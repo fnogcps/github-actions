@@ -1,3 +1,1 @@
-const concatName = (firstName, lastName) => {
-    return (`${lastName}, ${firstName}`)
-}
+const concatName = (firstName, lastName) => (`${lastName}, ${firstName}`)

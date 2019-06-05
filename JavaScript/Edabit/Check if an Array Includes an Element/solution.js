@@ -1,1 +1,1 @@
-const check = (arr, el) => { return arr.includes(el) }
+const check = (arr, el) => arr.includes(el)

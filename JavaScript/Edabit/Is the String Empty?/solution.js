@@ -1,1 +1,1 @@
-const isEmpty = s => { return (s.length === 0) }
+const isEmpty = s => (s.length === 0)

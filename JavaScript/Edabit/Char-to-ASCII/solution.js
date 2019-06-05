@@ -1,1 +1,1 @@
-const ctoa = (c) => c.charCodeAt()
+const ctoa = c => c.charCodeAt()

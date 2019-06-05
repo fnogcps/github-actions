@@ -1,1 +1,1 @@
-const isPlural = word => { return word.endsWith(s) }
+const isPlural = word => word.endsWith('s')

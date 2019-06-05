@@ -1,2 +1,2 @@
-const toInt = str => { return Number(str) }
-const toStr = int => { return int.toString() }
+const toInt = str => Number(str)
+const toStr = int => int.toString()
