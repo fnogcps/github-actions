@@ -1,1 +1,2 @@
-const remainder = (x, y) => (x % y)
+const remainder = (a, b) => (a % b)
+module.exports = { remainder }
