@@ -1,1 +1,2 @@
-const profitableGamble = (prob, prize, pay) => ((prob * prize) > pay)
+profitableGamble = (a, b, c) => ((a * b) > c)
+module.exports = { profitableGamble }
