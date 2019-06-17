@@ -1,0 +1,1 @@
+Go = a => "-".repeat(a)
