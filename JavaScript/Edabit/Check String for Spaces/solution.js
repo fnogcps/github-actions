@@ -8,3 +8,4 @@
 */
 
 hasSpaces = a => a.includes(" ")
+module.exports = { hasSpaces }
