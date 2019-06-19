@@ -8,3 +8,4 @@
 */
 
 repeat = (a, b) => a.split("").map(a => a.repeat(b)).join("")
+module.exports = { repeat }
