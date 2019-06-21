@@ -9,3 +9,4 @@
 */
 
 isInRange = (a, b) => a >= b.min && a <= b.max
+module.exports = { isInRange }
