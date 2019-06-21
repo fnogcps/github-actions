@@ -9,3 +9,4 @@
 */
 
 sameCase = a => a.toUpperCase() == a || a.toLowerCase() == a
+module.exports = { sameCase }
