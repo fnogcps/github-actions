@@ -8,3 +8,4 @@
 */
 
 toArray = a => a ? a.split(", ") : []
+module.exports = { toArray }
