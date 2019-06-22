@@ -7,8 +7,14 @@
   <br>
   <p>Repository to store exercises and coding challenges</p>
     
-   [![Build Status](https://api.travis-ci.com/fnogcps/bootcamp.svg?branch=master&style=flat)](https://www.travis-ci.com/fnogcps/bootcamp)
-   
-   ![img](https://i.imgur.com/ANFIFXF.png)
+  <a href="https://www.travis-ci.com/fnogcps/bootcamp">
+    <img src="https://travis-ci.com/fnogcps/bootcamp.svg?branch=master" alt="Build Status">
+  </a>
+  
+  <a href="https://www.codefactor.io/repository/github/fnogcps/bootcamp">
+    <img src="https://www.codefactor.io/repository/github/fnogcps/bootcamp/badge" alt="CodeFactor">
+  </a>
+  
+  <img src="https://i.imgur.com/ANFIFXF.png">
 
 </div>
