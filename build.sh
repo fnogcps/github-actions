@@ -2,4 +2,5 @@
 
 npm i
 ./node_modules/.bin/eslint . --fix
-mocha --recursive JavaScript/*
+./node_modules/mocha/bin/_mocha --recursive JavaScript/*
+
