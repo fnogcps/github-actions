@@ -5,7 +5,7 @@ const e = require('./solution.js')
 
 describe('Find the Index (unit tests)\n', () => {
     it('[Test 1] Expected: 3', () => 
-        assert.equal(
+        assert.strictEqual(
             e.find_index(
                 ['abc', 'ghj', 'banana', 'grape'], 
                 'grape'
@@ -13,7 +13,7 @@ describe('Find the Index (unit tests)\n', () => {
         3)
     )
     it('[Test 2] Expected: 5', () => 
-        assert.equal(
+        assert.strictEqual(
             e.find_index(
                 ['a', 'b', 'c', 'd', 'e', 'f'], 
                 'f'
@@ -21,7 +21,7 @@ describe('Find the Index (unit tests)\n', () => {
         5)
     )
     it('[Test 3] Expected: 1', () => 
-        assert.equal(
+        assert.strictEqual(
             e.find_index(
                 ['hi', 'edabit.com', 'testcase', 'validstring'],
                 'edabit.com'

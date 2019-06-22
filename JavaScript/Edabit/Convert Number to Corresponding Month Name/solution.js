@@ -8,5 +8,5 @@
   * github.com/fnogcps
 */
 
-month_name = a => new Date(0, --a).toLocaleString({}, { month: 'long' })
+month_name = a => new Date(0, --a).toLocaleString('en-US', { month: 'long' })
 module.exports = { month_name }
