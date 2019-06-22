@@ -22,7 +22,7 @@ describe('Remove the First and Last Characters (unit tests)\n', () => {
     it('[Test 6] Expected: "a"', () => 
         assert.equal(e.removeFirstLast("a"), "a")
     )
-    it('[Test 7] Expected: """', () => 
+    it('[Test 7] Expected: ""', () => 
         assert.equal(e.removeFirstLast(""), "")
     )
 })

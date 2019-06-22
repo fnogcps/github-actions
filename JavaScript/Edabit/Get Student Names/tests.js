@@ -30,7 +30,9 @@ describe('Get Student Names (unit tests)\n', () => {
 
     it('[Test 4] Expected: []', () => 
         assert.deepEqual(
-            e.getStudentNames([]), []
+            e.getStudentNames(
+                []
+            ), []
         )
     )
 })

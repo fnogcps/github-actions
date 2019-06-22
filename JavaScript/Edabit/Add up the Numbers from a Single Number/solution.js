@@ -8,5 +8,5 @@
   * github.com/fnogcps
 */
 
-addUp = n => n * (n + 1) / 2
+addUp = n => n*(n+1)/2
 module.exports = { addUp }

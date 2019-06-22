@@ -3,9 +3,7 @@ var expect = chai.expect
 
 const e = require('./solution.js')
 
-function validate(str) {
-    return (e.x).test(str);
-}
+const validate = (str) => (e.x).test(str)
 
 describe('Regex Series: String Contains at Least One Digit (unit tests)\n', 
 () => {

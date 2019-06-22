@@ -14,7 +14,7 @@ describe('Palindrome? (unit tests)\n', () => {
         assert.equal(e.checkPalindrome('reviver'), true)
     )
     it('[Test 4] Expected: false ', () => 
-        assert.equal(e.checkPalindrome('stressed'), false )
+        assert.equal(e.checkPalindrome('stressed'), false)
     )
     it('[Test 5] Expected: false', () => 
         assert.equal(e.checkPalindrome('good'), false)

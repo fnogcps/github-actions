@@ -3,8 +3,8 @@ var assert = chai.assert
 
 const e = require('./solution.js')
 
-describe('Concatenate First and Last Name into One String (unit tests)\n', () =>
-{
+describe('Concatenate First and Last Name into One String (unit tests)\n', 
+() => {
     it('[Test 1] Expected: "Doe, John"', () => 
         assert.equal(e.concatName("John", "Doe"), "Doe, John")
     )

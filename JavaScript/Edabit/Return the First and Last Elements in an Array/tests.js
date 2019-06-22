@@ -3,7 +3,8 @@ var assert = chai.assert
 
 const e = require('./solution.js')
 
-describe('Return the First and Last Elements in an Array (unit tests)\n', () => {
+describe('Return the First and Last Elements in an Array (unit tests)\n',
+() => {
     it('[Test 1] Expected: [5, 25]', () => 
         assert.deepEqual(
             e.firstLast([5, 10, 15, 20, 25]), 

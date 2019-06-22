@@ -1,5 +1,5 @@
 /* 
-  * Check if a String Contains only Identical Characters - Edabit
+  * Check if an Array Includes an Element - Edabit
   *
   * Write a function to check whether an array contains a particular element.
   *

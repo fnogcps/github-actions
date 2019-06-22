@@ -29,4 +29,3 @@ describe('Return First and Last Parameter (unit tests)\n', () => {
         assert.equal(e.lastArg(), undefined)
     )
 })
-

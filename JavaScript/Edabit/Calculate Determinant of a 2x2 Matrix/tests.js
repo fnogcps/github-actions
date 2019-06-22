@@ -4,7 +4,7 @@ var assert = chai.assert
 const e = require('./solution.js')
 
 describe('Calculate Determinant of a 2x2 Matrix (unit tests)\n', () => {
-it('[Test 1] Expected: -2', () => 
+    it('[Test 1] Expected: -2', () => 
         assert.equal(e.calcDeterminant([ [1, 2], [3, 4] ]), -2)
     )
     it('[Test 2] Expected: -4', () => 
