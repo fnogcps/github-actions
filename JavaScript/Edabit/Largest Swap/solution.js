@@ -8,12 +8,4 @@
  * github.com/fnogcps
  */
 
-largestSwap = a => {
-  return (
-    a >=
-    (a + "")
-      .split("")
-      .reverse()
-      .join("")
-  );
-};
+largestSwap = a => a / 10 > a % 10;
