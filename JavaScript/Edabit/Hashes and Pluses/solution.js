@@ -8,6 +8,8 @@
  */
 
 hashPlusCount = a => [
-  a.split("").filter(a => a.match(/[#]/g)).length,
-  a.split("").filter(a => a.match(/[+]/g)).length
+  (a.match(/[#]/g) || []).length,
+  (a.match(/[+]/g) || []).length
 ];
+
+module.exports = { hashPlusCount };
