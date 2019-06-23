@@ -9,3 +9,4 @@
  */
 
 minMax = a => [Math.min(...a), Math.max(...a)];
+module.exports = { minMax };
