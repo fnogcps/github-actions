@@ -12,3 +12,5 @@ isPalindrome = a =>
     .split("")
     .reverse()
     .join("") == a;
+
+module.exports = { isPalindrome };
