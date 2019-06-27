@@ -12,3 +12,5 @@ reverseCase = a =>
   [...a]
     .map(a => (a == a.toLowerCase() ? a.toUpperCase() : a.toLowerCase()))
     .join("");
+
+module.exports = { reverseCase };
