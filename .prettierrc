@@ -3,9 +3,9 @@
   "tabWidth": 2,
   "useTabs": false,
   "semi": true,
-  "singleQuote": false,
-  "trailingComma": "none",
-  "bracketSpacing": true,
-  "parser": "babel",
-  "jsxBracketSameLine": false
+  "singleQuote": true,
+  "trailingComma": "all",
+  "bracketSpacing": false,
+  "jsxBracketSameLine": true,
+  "parser": "flow"
 }
