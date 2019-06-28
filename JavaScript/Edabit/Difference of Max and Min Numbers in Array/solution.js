@@ -9,4 +9,4 @@
  */
 
 differenceMaxMin = a => Math.max(...a) - Math.min(...a);
-module.exports = { differenceMaxMin };
+module.exports = {differenceMaxMin};

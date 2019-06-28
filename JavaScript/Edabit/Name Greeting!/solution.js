@@ -9,4 +9,4 @@
  */
 
 helloName = a => `Hello ${a}!`;
-module.exports = { helloName };
+module.exports = {helloName};

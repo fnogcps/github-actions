@@ -13,4 +13,4 @@
 
 firstArg = (...a) => a.shift();
 lastArg = (...a) => a.pop();
-module.exports = { firstArg, lastArg };
+module.exports = {firstArg, lastArg};

@@ -7,5 +7,5 @@
  * github.com/fnogcps
  */
 
-getExtension = a => a.map(b => (b + "").replace(/[^.]*./, ""));
-module.exports = { getExtension };
+getExtension = a => a.map(b => (b + '').replace(/[^.]*./, ''));
+module.exports = {getExtension};

@@ -10,4 +10,4 @@
  */
 
 hurdleJump = (a, b) => a.every(a => a <= b);
-module.exports = { hurdleJump };
+module.exports = {hurdleJump};

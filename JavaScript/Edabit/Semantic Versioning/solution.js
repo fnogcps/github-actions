@@ -8,7 +8,7 @@
  * github.com/fnogcps
  */
 
-(retrieveMajor = a => a.split(".")[0]), "";
-(retrieveMinor = a => a.split(".")[1]), "";
-(retrievePatch = a => a.split(".")[2]), "";
-module.exports = { retrieveMajor, retrieveMinor, retrievePatch };
+(retrieveMajor = a => a.split('.')[0]), '';
+(retrieveMinor = a => a.split('.')[1]), '';
+(retrievePatch = a => a.split('.')[2]), '';
+module.exports = {retrieveMajor, retrieveMinor, retrievePatch};

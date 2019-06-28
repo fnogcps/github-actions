@@ -9,4 +9,4 @@
  */
 
 minusOne = a => a.slice(0, 4);
-module.exports = { minusOne };
+module.exports = {minusOne};

@@ -8,5 +8,5 @@
  * github.com/fnogcps
  */
 
-isPlural = a => a.endsWith("s");
-module.exports = { isPlural };
+isPlural = a => a.endsWith('s');
+module.exports = {isPlural};

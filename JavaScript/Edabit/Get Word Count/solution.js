@@ -8,5 +8,5 @@
  * github.com/fnogcps
  */
 
-countWords = a => a.split(" ").length;
-module.exports = { countWords };
+countWords = a => a.split(' ').length;
+module.exports = {countWords};

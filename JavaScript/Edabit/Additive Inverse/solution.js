@@ -9,4 +9,4 @@
  */
 
 additiveInverse = a => a.map(a => a * -1);
-module.exports = { additiveInverse };
+module.exports = {additiveInverse};

@@ -8,4 +8,4 @@
  */
 
 kToK = (a, b) => a == Math.pow(b, b);
-module.exports = { kToK };
+module.exports = {kToK};

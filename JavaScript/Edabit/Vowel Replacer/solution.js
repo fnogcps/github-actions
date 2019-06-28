@@ -9,4 +9,4 @@
  */
 
 replaceVowels = (a, b) => a.replace(/[aeiou]/g, b);
-module.exports = { replaceVowels };
+module.exports = {replaceVowels};

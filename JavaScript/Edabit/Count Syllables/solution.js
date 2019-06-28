@@ -8,5 +8,5 @@
  * github.com/fnogcps
  */
 
-numberSyllables = a => a.split("-").length;
-module.exports = { numberSyllables };
+numberSyllables = a => a.split('-').length;
+module.exports = {numberSyllables};

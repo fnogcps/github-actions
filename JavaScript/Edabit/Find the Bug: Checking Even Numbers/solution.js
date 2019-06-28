@@ -9,4 +9,4 @@
  */
 
 checkAllEven = a => a.every(a => !(a % 2));
-module.exports = { checkAllEven };
+module.exports = {checkAllEven};

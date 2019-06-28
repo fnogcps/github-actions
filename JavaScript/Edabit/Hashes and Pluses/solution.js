@@ -9,7 +9,7 @@
 
 hashPlusCount = a => [
   (a.match(/[#]/g) || []).length,
-  (a.match(/[+]/g) || []).length
+  (a.match(/[+]/g) || []).length,
 ];
 
-module.exports = { hashPlusCount };
+module.exports = {hashPlusCount};

@@ -10,4 +10,4 @@
  */
 
 nextElement = a => a.pop() + a[1] - a[0];
-module.exports = { nextElement };
+module.exports = {nextElement};

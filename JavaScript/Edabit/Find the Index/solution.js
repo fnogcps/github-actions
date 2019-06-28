@@ -9,4 +9,4 @@
  */
 
 find_index = (a, b) => a.indexOf(b);
-module.exports = { find_index };
+module.exports = {find_index};

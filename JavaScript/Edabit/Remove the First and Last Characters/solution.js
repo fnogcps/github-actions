@@ -8,4 +8,4 @@
  */
 
 removeFirstLast = a => (a.length > 2 ? a.slice(1, -1) : a);
-module.exports = { removeFirstLast };
+module.exports = {removeFirstLast};

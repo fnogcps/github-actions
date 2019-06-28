@@ -8,4 +8,4 @@
  */
 
 ctoa = a => a.charCodeAt();
-module.exports = { ctoa };
+module.exports = {ctoa};

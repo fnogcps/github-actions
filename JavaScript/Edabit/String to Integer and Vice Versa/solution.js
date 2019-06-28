@@ -10,5 +10,5 @@
  */
 
 toInt = a => Number(a);
-toStr = a => a + "";
-module.exports = { toInt, toStr };
+toStr = a => a + '';
+module.exports = {toInt, toStr};

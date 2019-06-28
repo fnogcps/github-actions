@@ -9,7 +9,7 @@
 
 repeat = (a, b) =>
   a
-    .split("")
+    .split('')
     .map(a => a.repeat(b))
-    .join("");
-module.exports = { repeat };
+    .join('');
+module.exports = {repeat};

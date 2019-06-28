@@ -8,5 +8,5 @@
  * github.com/fnogcps
  */
 
-Go = a => "-".repeat(a);
-module.exports = { Go };
+Go = a => '-'.repeat(a);
+module.exports = {Go};

@@ -8,4 +8,4 @@
  */
 
 isOmnipresent = (a, b) => a.every(c => c.includes(b));
-module.exports = { isOmnipresent };
+module.exports = {isOmnipresent};

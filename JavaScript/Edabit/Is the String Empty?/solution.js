@@ -9,4 +9,4 @@
  */
 
 isEmpty = a => a.length == 0;
-module.exports = { isEmpty };
+module.exports = {isEmpty};

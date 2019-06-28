@@ -9,4 +9,4 @@
  */
 
 checkFactors = (a, b) => !(b % a.pop());
-module.exports = { checkFactors };
+module.exports = {checkFactors};

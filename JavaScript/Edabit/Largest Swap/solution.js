@@ -9,4 +9,4 @@
  */
 
 largestSwap = a => a / 10 > a % 10;
-module.exports = { largestSwap };
+module.exports = {largestSwap};

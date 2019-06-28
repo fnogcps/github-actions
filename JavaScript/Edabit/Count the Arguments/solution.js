@@ -8,4 +8,4 @@
  */
 
 numArgs = (...a) => a.length;
-module.exports = { numArgs };
+module.exports = {numArgs};

@@ -9,4 +9,4 @@
  */
 
 firstLast = a => [a.shift(), a.pop()];
-module.exports = { firstLast };
+module.exports = {firstLast};

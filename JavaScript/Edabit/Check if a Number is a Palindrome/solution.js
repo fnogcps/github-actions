@@ -8,9 +8,9 @@
  */
 
 isPalindrome = a =>
-  (a + "")
-    .split("")
+  (a + '')
+    .split('')
     .reverse()
-    .join("") == a;
+    .join('') == a;
 
-module.exports = { isPalindrome };
+module.exports = {isPalindrome};

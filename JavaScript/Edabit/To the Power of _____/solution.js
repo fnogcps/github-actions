@@ -9,4 +9,4 @@
  */
 
 calculateExponent = (a, b) => Math.pow(a, b);
-module.exports = { calculateExponent };
+module.exports = {calculateExponent};

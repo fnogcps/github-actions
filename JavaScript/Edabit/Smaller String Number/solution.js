@@ -7,5 +7,5 @@
  * github.com/fnogcps
  */
 
-smallerNum = (a, b) => Math.min(a, b) + "";
-module.exports = { smallerNum };
+smallerNum = (a, b) => Math.min(a, b) + '';
+module.exports = {smallerNum};

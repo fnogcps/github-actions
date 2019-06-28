@@ -11,4 +11,4 @@
 charIndex = (a, b) =>
   a.includes(b) ? [a.indexOf(b), a.lastIndexOf(b)] : void 0;
 
-module.exports = { charIndex };
+module.exports = {charIndex};

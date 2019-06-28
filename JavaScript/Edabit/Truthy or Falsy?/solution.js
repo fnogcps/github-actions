@@ -10,4 +10,4 @@
  */
 
 isTruthy = a => (a ? 1 : 0);
-module.exports = { isTruthy };
+module.exports = {isTruthy};

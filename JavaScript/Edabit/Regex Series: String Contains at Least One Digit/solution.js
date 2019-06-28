@@ -9,4 +9,4 @@
  */
 
 x = /[0-9]/;
-module.exports = { x };
+module.exports = {x};

@@ -11,4 +11,4 @@
  */
 
 comp = (a, b) => a.length === b.length;
-module.exports = { comp };
+module.exports = {comp};

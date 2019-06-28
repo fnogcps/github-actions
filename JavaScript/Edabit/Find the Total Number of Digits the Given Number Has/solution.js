@@ -8,5 +8,5 @@
  * github.com/fnogcps
  */
 
-findDigitAmount = a => (a + "").length;
-module.exports = { findDigitAmount };
+findDigitAmount = a => (a + '').length;
+module.exports = {findDigitAmount};

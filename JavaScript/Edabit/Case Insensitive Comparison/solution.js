@@ -9,4 +9,4 @@
  */
 
 match = (a, b) => a.toUpperCase() == b.toUpperCase();
-module.exports = { match };
+module.exports = {match};

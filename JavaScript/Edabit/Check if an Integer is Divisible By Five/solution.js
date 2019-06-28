@@ -9,4 +9,4 @@
  */
 
 divisibleByFive = a => a % 5 == 0;
-module.exports = { divisibleByFive };
+module.exports = {divisibleByFive};

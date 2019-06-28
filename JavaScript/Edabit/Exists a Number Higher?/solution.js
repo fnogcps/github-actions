@@ -9,4 +9,4 @@
  */
 
 existsHigher = (a, b) => Math.max(...a) >= b;
-module.exports = { existsHigher };
+module.exports = {existsHigher};

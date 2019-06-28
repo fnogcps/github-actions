@@ -5,7 +5,7 @@ const seq = {
   },
   get getValue() {
     return this._value;
-  }
+  },
 };
 
 seq.setValue = 5;

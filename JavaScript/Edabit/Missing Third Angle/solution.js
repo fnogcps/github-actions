@@ -9,6 +9,6 @@
  */
 
 missingAngle = (a, b) =>
-  a + b == 90 ? "right" : a + b < 90 ? "obtuse" : "acute";
+  a + b == 90 ? 'right' : a + b < 90 ? 'obtuse' : 'acute';
 
-module.exports = { missingAngle };
+module.exports = {missingAngle};

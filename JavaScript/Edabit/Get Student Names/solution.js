@@ -9,4 +9,4 @@
  */
 
 getStudentNames = a => a.map(b => b.name);
-module.exports = { getStudentNames };
+module.exports = {getStudentNames};

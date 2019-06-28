@@ -9,4 +9,4 @@
  */
 
 countdown = a => [...Array(++a).keys()].reverse();
-module.exports = { countdown };
+module.exports = {countdown};

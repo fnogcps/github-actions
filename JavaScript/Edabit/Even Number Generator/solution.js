@@ -8,4 +8,4 @@
  */
 
 findEvenNums = a => [...Array(++a).keys()].filter(b => b && !(b % 2));
-module.exports = { findEvenNums };
+module.exports = {findEvenNums};

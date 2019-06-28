@@ -7,5 +7,5 @@
  * github.com/fnogcps
  */
 
-toArray = a => (a ? a.split(", ") : []);
-module.exports = { toArray };
+toArray = a => (a ? a.split(', ') : []);
+module.exports = {toArray};

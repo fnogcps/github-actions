@@ -9,4 +9,4 @@
  */
 
 evenOddPartition = a => [a.filter(c => !(c % 2)), a.filter(d => d % 2)];
-module.exports = { evenOddPartition };
+module.exports = {evenOddPartition};

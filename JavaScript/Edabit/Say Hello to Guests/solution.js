@@ -13,5 +13,5 @@
  * github.com/fnogcps
  */
 
-greetPeople = a => a.map(a => `Hello ${a}`).join(", ");
-module.exports = { greetPeople };
+greetPeople = a => a.map(a => `Hello ${a}`).join(', ');
+module.exports = {greetPeople};

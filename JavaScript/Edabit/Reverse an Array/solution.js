@@ -8,4 +8,4 @@
  */
 
 reverse = a => a.reverse();
-module.exports = { reverse };
+module.exports = {reverse};

@@ -8,4 +8,4 @@
  */
 
 addEnding = (a, b) => a.map(a => a + b);
-module.exports = { addEnding };
+module.exports = {addEnding};

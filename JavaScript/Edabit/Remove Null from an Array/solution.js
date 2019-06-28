@@ -8,4 +8,4 @@
  */
 
 removeNull = a => a.filter(a => a != null);
-module.exports = { removeNull };
+module.exports = {removeNull};

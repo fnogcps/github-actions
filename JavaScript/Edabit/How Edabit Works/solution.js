@@ -7,5 +7,5 @@
  * github.com/fnogcps
  */
 
-hello = _ => "hello edabit.com";
-module.exports = { hello };
+hello = _ => 'hello edabit.com';
+module.exports = {hello};

@@ -8,5 +8,5 @@
  * github.com/fnogcps
  */
 
-isEvenOrOdd = a => (a % 2 ? "odd" : "even");
-module.exports = { isEvenOrOdd };
+isEvenOrOdd = a => (a % 2 ? 'odd' : 'even');
+module.exports = {isEvenOrOdd};

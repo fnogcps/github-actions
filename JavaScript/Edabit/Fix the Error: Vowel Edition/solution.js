@@ -7,5 +7,5 @@
  * github.com/fnogcps
  */
 
-removeVowels = a => a.replace(/[aeiou]/gi, "");
-module.exports = { removeVowels };
+removeVowels = a => a.replace(/[aeiou]/gi, '');
+module.exports = {removeVowels};

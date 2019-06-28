@@ -7,5 +7,5 @@
  * github.com/fnogcps
  */
 
-subReddit = a => a.split("/")[4];
-module.exports = { subReddit };
+subReddit = a => a.split('/')[4];
+module.exports = {subReddit};

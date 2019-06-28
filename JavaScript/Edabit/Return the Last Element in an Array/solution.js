@@ -9,4 +9,4 @@
  */
 
 getLastItem = a => a.pop();
-module.exports = { getLastItem };
+module.exports = {getLastItem};

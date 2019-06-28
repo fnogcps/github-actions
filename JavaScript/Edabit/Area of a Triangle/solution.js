@@ -9,4 +9,4 @@
  */
 
 triArea = (a, b) => (a * b) / 2;
-module.exports = { triArea };
+module.exports = {triArea};

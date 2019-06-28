@@ -12,4 +12,4 @@
  */
 
 equalSlices = (a, b, c) => b * c <= a;
-module.exports = { equalSlices };
+module.exports = {equalSlices};

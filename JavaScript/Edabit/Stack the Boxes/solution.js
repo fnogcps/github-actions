@@ -9,4 +9,4 @@
  */
 
 stackBoxes = a => a * a;
-module.exports = { stackBoxes };
+module.exports = {stackBoxes};

@@ -7,5 +7,5 @@
  * github.com/fnogcps
  */
 
-hasSpaces = a => a.includes(" ");
-module.exports = { hasSpaces };
+hasSpaces = a => a.includes(' ');
+module.exports = {hasSpaces};

@@ -9,4 +9,4 @@
  */
 
 animals = (a, b, c) => (a *= 2) + (b + c) * 4;
-module.exports = { animals };
+module.exports = {animals};

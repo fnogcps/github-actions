@@ -8,5 +8,5 @@
  * github.com/fnogcps
  */
 
-checkEquals = (a, b) => a + "" == b + "";
-module.exports = { checkEquals };
+checkEquals = (a, b) => a + '' == b + '';
+module.exports = {checkEquals};

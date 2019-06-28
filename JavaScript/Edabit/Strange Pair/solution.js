@@ -9,4 +9,4 @@
  */
 
 isStrangePair = (a, b) => a[--a.length] == b[0] && b[--b.length] == a[0];
-module.exports = { isStrangePair };
+module.exports = {isStrangePair};

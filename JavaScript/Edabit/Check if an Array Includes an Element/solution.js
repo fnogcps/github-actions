@@ -8,4 +8,4 @@
  */
 
 check = (a, b) => a.includes(b);
-module.exports = { check };
+module.exports = {check};

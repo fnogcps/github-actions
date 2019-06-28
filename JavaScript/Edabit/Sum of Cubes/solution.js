@@ -9,4 +9,4 @@
  */
 
 sumOfCubes = a => a.reduce((a, b) => a + Math.pow(b, 3), 0);
-module.exports = { sumOfCubes };
+module.exports = {sumOfCubes};

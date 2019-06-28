@@ -9,4 +9,4 @@
  */
 
 transform = a => a.map(a => (a % 2 ? ++a : --a));
-module.exports = { transform };
+module.exports = {transform};

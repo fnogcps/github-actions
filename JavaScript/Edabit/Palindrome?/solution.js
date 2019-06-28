@@ -10,8 +10,8 @@
 (checkPalindrome = a =>
   a ==
   a
-    .split("")
+    .split('')
     .reverse()
-    .join("")),
-  "";
-module.exports = { checkPalindrome };
+    .join('')),
+  '';
+module.exports = {checkPalindrome};

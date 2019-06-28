@@ -9,4 +9,4 @@
  */
 
 divisible = a => !(a % 100);
-module.exports = { divisible };
+module.exports = {divisible};

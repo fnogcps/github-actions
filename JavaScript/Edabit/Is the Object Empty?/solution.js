@@ -9,4 +9,4 @@
  */
 
 isEmpty = a => Object.keys(a) < 1;
-module.exports = { isEmpty };
+module.exports = {isEmpty};

@@ -8,5 +8,5 @@
  * github.com/fnogcps
  */
 
-isIdentical = a => a.split("").every(b => b == a[0]);
-module.exports = { isIdentical };
+isIdentical = a => a.split('').every(b => b == a[0]);
+module.exports = {isIdentical};

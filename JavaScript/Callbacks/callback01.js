@@ -1,6 +1,6 @@
-const arrMfr = ["Mercedes", "Audi", "BMW"];
-const arrMfr2 = ["Volvo", "Porshe", "Maserati"];
-const arrMfr3 = ["Ford", "Nissan", "Fiat"];
+const arrMfr = ['Mercedes', 'Audi', 'BMW'];
+const arrMfr2 = ['Volvo', 'Porshe', 'Maserati'];
+const arrMfr3 = ['Ford', 'Nissan', 'Fiat'];
 
 function printArr(name, index) {
   console.log(`${index}. ${name}`);

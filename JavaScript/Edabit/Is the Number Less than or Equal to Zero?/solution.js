@@ -10,4 +10,4 @@
  */
 
 lessThanOrEqualToZero = a => a <= 0;
-module.exports = { lessThanOrEqualToZero };
+module.exports = {lessThanOrEqualToZero};

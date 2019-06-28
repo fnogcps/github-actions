@@ -8,4 +8,4 @@
  */
 
 addition = (a, b) => a + b;
-module.exports = { addition };
+module.exports = {addition};

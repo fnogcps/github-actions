@@ -9,4 +9,4 @@
  */
 
 volumeOfBox = a => a.width * a.length * a.height;
-module.exports = { volumeOfBox };
+module.exports = {volumeOfBox};

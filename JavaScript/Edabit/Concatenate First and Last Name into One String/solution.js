@@ -9,4 +9,4 @@
  */
 
 concatName = (a, b) => `${b}, ${a}`;
-module.exports = { concatName };
+module.exports = {concatName};

@@ -8,4 +8,4 @@
  */
 
 concat = (a, b) => a.concat(b);
-module.exports = { concat };
+module.exports = {concat};

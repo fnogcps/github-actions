@@ -9,4 +9,4 @@
  */
 
 matchHouses = a => a && a * 5 + 1;
-module.exports = { matchHouses };
+module.exports = {matchHouses};

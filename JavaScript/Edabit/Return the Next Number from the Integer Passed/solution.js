@@ -9,4 +9,4 @@
  */
 
 addition = i => ++i;
-module.exports = { addition };
+module.exports = {addition};

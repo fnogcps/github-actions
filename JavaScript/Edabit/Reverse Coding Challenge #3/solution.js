@@ -11,4 +11,4 @@
  */
 
 mysteryFunc = (a, b) => a.map(a => a % b);
-module.exports = { mysteryFunc };
+module.exports = {mysteryFunc};
