@@ -8,4 +8,5 @@
  * github.com/fnogcps
  */
 
-findLargestNum = a => Math.max(...a)
+findLargestNum = a => Math.max(...a);
+module.exports = {findLargestNum};
