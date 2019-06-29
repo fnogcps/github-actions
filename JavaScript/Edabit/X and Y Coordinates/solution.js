@@ -8,4 +8,5 @@
  * github.com/fnogcps
  */
 
-convertCartesian = (a, b) => a.map(a => [a, b]);
+convertCartesian = (a, b) => a.map((a, c) => [a, b[c]]);
+module.exports = {convertCartesian};
