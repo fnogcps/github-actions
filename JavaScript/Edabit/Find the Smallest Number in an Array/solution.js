@@ -9,3 +9,4 @@
  */
 
 findSmallestNum = a => Math.min(...a);
+module.exports = {findSmallestNum};
