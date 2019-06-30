@@ -9,3 +9,4 @@
  */
 
 MultiplyByLength = a => a.map(b => a.length * b);
+module.exports = {MultiplyByLength};
