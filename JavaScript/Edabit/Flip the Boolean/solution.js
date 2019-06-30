@@ -8,4 +8,5 @@
  * github.com/fnogcps
  */
 
-reverse = a => typeof a == "boolean" ? !a : "boolean expected"
+reverse = a => (typeof a == 'boolean' ? !a : 'boolean expected');
+module.exports = {reverse};
