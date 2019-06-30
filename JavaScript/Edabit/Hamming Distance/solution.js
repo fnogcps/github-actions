@@ -11,3 +11,5 @@ hammingDistance = (a, b, c = 0) => {
   for (i in a) [...a][i] != [...b][i] && c++;
   return c;
 };
+
+module.exports = {hammingDistance};
