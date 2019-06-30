@@ -9,3 +9,4 @@
  */
 
 lettersOnly = a => a.replace(/[^a-z]/gi, '');
+module.exports = {lettersOnly};
