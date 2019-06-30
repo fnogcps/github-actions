@@ -9,3 +9,4 @@
  */
 
 filterDigitLength = (a, b) => a.filter(a => (a + '').length == b);
+module.exports = {filterDigitLength};
