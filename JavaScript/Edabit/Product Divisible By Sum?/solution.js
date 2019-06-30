@@ -9,3 +9,4 @@
  */
 
 divisible = a => !(a.reduce(a => a * a) % a.reduce(a => a + a));
+module.exports = {divisible};
