@@ -13,3 +13,5 @@ nameShuffle = a =>
     .split(' ')
     .reverse()
     .join(' ');
+
+module.exports = {nameShuffle};
