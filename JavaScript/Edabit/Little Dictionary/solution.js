@@ -9,3 +9,4 @@
  */
 
 dictionary = (a, b) => b.filter(b => b.startsWith(a));
+module.exports = {dictionary};
