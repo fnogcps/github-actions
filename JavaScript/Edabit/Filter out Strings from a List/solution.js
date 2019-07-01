@@ -9,3 +9,4 @@
  */
 
 filterList = a => a.filter(a => Number.isInteger(a));
+module.exports = {filterList};
