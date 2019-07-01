@@ -11,3 +11,4 @@
  */
 
 correctStream = (a, b) => a.map((_, c) => (a[c] == b[c] ? 1 : -1));
+module.exports = {correctStream};
