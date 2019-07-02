@@ -8,3 +8,4 @@
  */
 
 removeEmptyArrays = a => a.filter(a => (a + '').length);
+module.exports = {removeEmptyArrays};
