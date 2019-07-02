@@ -1,7 +1,9 @@
 {
-  "name": "javascript",
+  "name": "bootcamp",
   "version": "1.0.0",
-  "description": "",
+  "description": "Repository to store exercises and coding challenges",
+  "author": "Felipe Nogueira <contato.fnog@gmail.com>",
+  "repository": "https://github.com/fnogcps/bootcamp",
   "scripts": {
     "test": "./node_modules/.bin/eslint -c .eslintrc.json .",
     "cov": "./node_modules/.bin/nyc mocha --recursive JavaScript/"
@@ -15,7 +17,6 @@
     "nyc": "^14.1.1",
     "prettier": "^1.18.2"
   },
-  "author": "",
   "license": "ISC",
   "dependencies": {}
 }
