@@ -1,5 +1,5 @@
 /*
- * Return the Next Number from the Integer Passed - Edabit
+ * Return the Remainder from Two Numbers - Edabit
  *
  * There is a single operator in JavaScript capable of providing the
  * remainder of a division operation. Two numbers are passed as parameters.
