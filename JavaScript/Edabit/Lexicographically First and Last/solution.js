@@ -1,8 +1,8 @@
 /*
  * Lexicographically First and Last - Edabit
  *
- * Create a function replaces all the vowels in
- * a string with a specified character.
+ * Write a function that returns the lexicographically first
+ * and lexicographically last rearrangements of a string.
  *
  * https://edabit.com/challenge/m6GYKsereS6JdARGW
  * github.com/fnogcps
@@ -15,3 +15,5 @@ firstAndLast = a => [
     .reverse()
     .join(''),
 ];
+
+module.exports = {firstAndLast};
