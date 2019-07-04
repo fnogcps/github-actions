@@ -9,3 +9,4 @@
  */
 
 AlphabetSoup = a => [...a].sort().join('');
+module.exports = {AlphabetSoup};
