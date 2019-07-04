@@ -4,6 +4,5 @@
     "coverage"
   ],
 
-  "all": true,
-  "reporter": ["lcov", "text", "text-summary"]
+  "reporter": ["lcov", "text-summary"]
 }
