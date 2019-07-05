@@ -9,3 +9,4 @@
  */
 
 noOdds = a => a.filter(a => !(a % 2));
+module.exports = {noOdds};
