@@ -9,3 +9,4 @@
  */
 
 isFourLetters = a => a.filter(a => a.length == 4);
+module.exports = {isFourLetters};
