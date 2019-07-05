@@ -9,3 +9,4 @@
  */
 
 howManyTimes = a => `Ed${'a'.repeat(a)}bit`;
+module.exports = {howManyTimes};
