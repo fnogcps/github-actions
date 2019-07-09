@@ -1,6 +1,13 @@
 kind: pipeline
 name: default
 
+platform:
+  os: linux
+  arch: arm
+
+install:
+  image: node:8.6.0
+
 steps:
 - name: job0
   image: node
@@ -9,3 +16,8 @@ steps:
   - npm test
   - npm run cov
 
+trigger:
+  branch:
+  - master
+  event:
+  - push
