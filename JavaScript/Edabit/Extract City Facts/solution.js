@@ -10,3 +10,5 @@
 
 cityFacts = a =>
   `${a.name} has a population of ${a.population} and is situated in ${a.continent}`;
+
+module.exports = {cityFacts};
