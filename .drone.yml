@@ -1,0 +1,11 @@
+kind: pipeline
+name: default
+
+steps:
+- name: job0
+  image: node
+  commands:
+  - npm install
+  - npm test
+  - npm run cov
+
