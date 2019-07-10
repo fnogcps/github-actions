@@ -10,3 +10,4 @@
  */
 
 checkEnding = (a, b) => a.endsWith(b);
+module.exports = {checkEnding};
