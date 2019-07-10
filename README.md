@@ -15,6 +15,6 @@
     <img src="https://www.codefactor.io/repository/github/fnogcps/bootcamp/badge" alt="CodeFactor">
   </a>
   
-  <img src="https://i.imgur.com/ANFIFXF.png">
+  <img src="https://i.imgur.com/rn68FQx.png">
 
 </div>
