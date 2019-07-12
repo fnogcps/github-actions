@@ -15,3 +15,5 @@ sum = (a, c = []) => {
 
   return c.reduce((a, b) => a + b);
 };
+
+module.exports = {sum};
