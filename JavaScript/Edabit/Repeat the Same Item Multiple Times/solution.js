@@ -11,3 +11,4 @@
  */
 
 repeat = (a, b) => Array(b).fill(a);
+module.exports = {repeat};
