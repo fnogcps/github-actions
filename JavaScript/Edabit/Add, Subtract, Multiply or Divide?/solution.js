@@ -20,3 +20,5 @@ operation = (a, b) => {
     null
   );
 };
+
+module.exports = {operation};
