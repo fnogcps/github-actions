@@ -15,3 +15,5 @@ findNemo = a => {
   b = a.split(' ').indexOf('Nemo') + 1;
   return b ? `I found Nemo at ${b}!` : "I can't find Nemo :(";
 };
+
+module.exports = {findNemo};
