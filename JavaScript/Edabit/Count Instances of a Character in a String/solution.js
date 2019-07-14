@@ -9,3 +9,4 @@
  */
 
 charCount = (a, b) => --b.split(a).length;
+module.exports = {charCount};
