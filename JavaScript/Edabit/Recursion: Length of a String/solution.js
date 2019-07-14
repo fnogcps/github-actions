@@ -9,3 +9,4 @@
  */
 
 length = a => a.length;
+module.exports = {length};
