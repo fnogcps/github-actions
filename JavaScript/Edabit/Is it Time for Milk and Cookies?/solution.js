@@ -11,3 +11,4 @@
  */
 
 timeForMilkAndCookies = a => a.getMonth() == 11 && a.getDate() == 24;
+module.exports = {timeForMilkAndCookies};
