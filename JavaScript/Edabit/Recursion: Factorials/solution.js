@@ -8,3 +8,4 @@
  */
 
 factorial = a => (a ? a * factorial(--a) : 1);
+module.exports = {factorial};
