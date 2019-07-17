@@ -9,3 +9,4 @@
  */
 
 getAbsSum = a => Math.abs(a.reduce((a, b) => Math.abs(a) + Math.abs(b)));
+module.exports = {getAbsSum};
