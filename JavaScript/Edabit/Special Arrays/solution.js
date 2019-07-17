@@ -10,3 +10,4 @@
  */
 
 isSpecialArray = a => a.length == a.filter(a => !(a % 2)).length * 2;
+module.exports = {isSpecialArray};
