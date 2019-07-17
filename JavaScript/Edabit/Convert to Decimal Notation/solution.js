@@ -9,3 +9,4 @@
  */
 
 convertToDecimal = a => a.map(a => parseFloat(a.substring(0, 5)) * 0.01);
+module.exports = {convertToDecimal};
