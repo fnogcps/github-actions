@@ -9,3 +9,4 @@
  */
 
 countVowels = a => a.match(/[aeiou]/gi).length;
+module.exports = {countVowels};
