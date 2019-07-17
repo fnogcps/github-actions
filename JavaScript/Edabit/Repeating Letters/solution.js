@@ -9,3 +9,4 @@
  */
 
 doubleChar = a => [...a].map(b => b.repeat(2)).join('');
+module.exports = {doubleChar};
