@@ -12,3 +12,5 @@ transformUpvotes = a =>
   a
     .split(' ')
     .map(a => (a.endsWith('k') ? parseFloat(a.slice(0, 5)) * 1000 : a * 1));
+
+module.exports = {transformUpvotes};
