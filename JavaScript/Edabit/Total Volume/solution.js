@@ -12,3 +12,5 @@
 
 totalVolume = (...a) =>
   a.map(a => a.reduce((a, b) => a * b)).reduce((a, b) => a + b);
+
+module.exports = {totalVolume};
