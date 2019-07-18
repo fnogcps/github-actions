@@ -11,3 +11,4 @@
 
 toArray = a => (a + '').split('').map(a => a * 1);
 toNumber = a => a.join('') * 1;
+module.exports = {toArray, toNumber};
