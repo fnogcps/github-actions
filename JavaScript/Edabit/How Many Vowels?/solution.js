@@ -8,5 +8,5 @@
  * github.com/fnogcps
  */
 
-countVowels = a => a.match(/[aeiou]/gi).length;
+countVowels = a => a.match(/[aeiou]/g).length;
 module.exports = {countVowels};

@@ -8,5 +8,5 @@
  * github.com/fnogcps
  */
 
-convertToDecimal = a => a.map(a => parseFloat(a.substring(0, 5)) * 0.01);
+convertToDecimal = a => a.map(a => parseFloat(a.substring(0, 5)) / 100);
 module.exports = {convertToDecimal};

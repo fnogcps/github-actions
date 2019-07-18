@@ -8,5 +8,5 @@
  * github.com/fnogcps
  */
 
-doubleChar = a => [...a].map(b => b.repeat(2)).join('');
+doubleChar = a => [...a].map(a => a.repeat(2)).join('');
 module.exports = {doubleChar};
