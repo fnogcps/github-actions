@@ -1,4 +1,4 @@
-// flatMap
+// My custom Array.flatMap
 
 const objectOne = [
   {
