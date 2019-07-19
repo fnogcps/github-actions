@@ -9,3 +9,4 @@
  */
 
 removeVowels = a => a.replace(/[aeiou]/gi, '');
+module.exports = {removeVowels};
