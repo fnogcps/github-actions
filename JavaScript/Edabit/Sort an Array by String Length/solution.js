@@ -8,4 +8,5 @@
  * github.com/fnogcps
  */
 
-sortByLength = a => a.sort((a, b) => a.length - b.length)
+sortByLength = a => a.sort((a, b) => a.length - b.length);
+module.exports = {sortByLength};
