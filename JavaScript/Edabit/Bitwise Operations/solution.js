@@ -11,3 +11,5 @@
 bitwiseAND = (a, b) => a & b;
 bitwiseOR = (a, b) => a | b;
 bitwiseXOR = (a, b) => a ^ b;
+
+module.exports = {bitwiseAND, bitwiseOR, bitwiseXOR};
