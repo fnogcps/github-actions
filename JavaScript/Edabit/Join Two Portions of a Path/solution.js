@@ -10,4 +10,5 @@
  * github.com/fnogcps
  */
 
-joinPath = (a, b) => a.replace(/\//gu, "") + "/" + b.replace(/\//gu, "")
+joinPath = (a, b) => a.replace(/\//gu, '') + '/' + b.replace(/\//gu, '');
+module.exports = {joinPath};
