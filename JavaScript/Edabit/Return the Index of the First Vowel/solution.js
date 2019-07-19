@@ -9,3 +9,4 @@
  */
 
 firstVowel = a => a.indexOf(...a.match(/[aeiou]/gi));
+module.exports = {firstVowel};
