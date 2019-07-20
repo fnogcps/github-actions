@@ -9,3 +9,4 @@
  */
 
 oldest = a => Object.keys(a).find(b => a[b] == Math.max(...Object.values(a)));
+module.exports = {oldest};
