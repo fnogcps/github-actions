@@ -1,5 +1,3 @@
-// ////////////////
-
 const objectOne = {0: 'valueOne', 1: 'valueTwo', 2: 'valueThree'};
 console.log('objectOne:', objectOne);
 
