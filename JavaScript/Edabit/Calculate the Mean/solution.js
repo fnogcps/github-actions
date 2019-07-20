@@ -9,3 +9,4 @@
  */
 
 mean = a => +(a.reduce((a, b) => a + b) / a.length).toFixed(2);
+module.exports = {mean};
