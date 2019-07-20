@@ -4,5 +4,5 @@ module.exports = () => {
     increases() {
       this.value++;
     },
-  }
+  };
 };
