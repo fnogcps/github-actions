@@ -9,3 +9,4 @@
  */
 
 highLow = a => `${Math.max(...a.split(' '))} ${Math.min(...a.split(' '))}`;
+module.exports = {highLow};
