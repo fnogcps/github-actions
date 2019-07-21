@@ -14,3 +14,5 @@ fibonacciSequence = (a = 0, b = 1, c = [0, 1]) => {
   for (i = 0; i < 6; i++) c.push((a += b), (b += a));
   return c;
 };
+
+module.exports = {fibonacciSequence}
