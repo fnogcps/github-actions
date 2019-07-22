@@ -15,4 +15,4 @@ fibonacciSequence = (a = 0, b = 1, c = [0, 1]) => {
   return c;
 };
 
-module.exports = {fibonacciSequence}
+module.exports = {fibonacciSequence};
