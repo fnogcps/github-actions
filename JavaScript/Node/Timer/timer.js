@@ -16,6 +16,11 @@ rule.dayOfWeek = [new schedule.Range(1, 5)];
 rule.hour = new Date().getHours();
 rule.second = 10;
 
-schedule.scheduleJob(rule, function() {
+const task2 = schedule.scheduleJob(rule, function() {
   console.log('Executing task #2...', new Date().getSeconds());
 });
+
+setTimeout(() => {
+  console.log('Stopping task #2...');
+  task2.cancel();
+}, 10000);
