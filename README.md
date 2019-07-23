@@ -1,20 +1,22 @@
-<div align="center">
-  <h1>
-    :triangular_flag_on_post:
-    <br>
-    Bootcamp
-  </h1>
-  <br>
-  <p>Repository to store exercises and coding challenges</p>
-    
-  <a href="https://www.travis-ci.com/fnogcps/bootcamp">
-    <img src="https://travis-ci.com/fnogcps/bootcamp.svg?branch=master" alt="Build Status">
-  </a>
+# Welcome to bootcamp 👋
+![Version](https://img.shields.io/npm/v/bootcamp.svg)
+![CodeFactor](https://www.codefactor.io/repository/github/fnogcps/bootcamp/badge)
+![Build Status](https://travis-ci.com/fnogcps/bootcamp.svg?branch=master)
   
-  <a href="https://www.codefactor.io/repository/github/fnogcps/bootcamp">
-    <img src="https://www.codefactor.io/repository/github/fnogcps/bootcamp/badge" alt="CodeFactor">
-  </a>
-  
-  <img src="https://i.imgur.com/rn68FQx.png">
+> :triangular_flag_on_post: Repository to store exercises and coding challenges
 
-</div>
+![image](https://i.imgur.com/rn68FQx.png)
+
+## Author
+
+👤 **Felipe Nogueira <contato.fnog@gmail.com>**
+
+* Github: [@fnogcps](https://github.com/fnogcps)
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+
+***
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
