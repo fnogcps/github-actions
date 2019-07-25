@@ -12,3 +12,5 @@ century = a => {
   c = +(a + '').slice(2, 4) ? 1 + +(a + '').slice(0, 2) : +(a + '').slice(0, 2);
   return c + b;
 };
+
+module.exports = {century};
