@@ -10,4 +10,5 @@
  * github.com/fnogcps
  */
 
-maximumScore = a => a.map(a => a.score).reduce((a, b) => a + b)
+maximumScore = a => a.map(a => a.score).reduce((a, b) => a + b);
+module.exports = {maximumScore};
