@@ -1,4 +1,4 @@
- /*
+/*
  * Power of Two - Edabit
  *
  * Write a function that returns true if an integer is a power of 2,
@@ -9,3 +9,4 @@
  */
 
 powerOfTwo = a => Number.isInteger(Math.log2(a));
+module.exports = {powerOfTwo};
