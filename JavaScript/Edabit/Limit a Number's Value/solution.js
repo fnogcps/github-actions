@@ -10,3 +10,4 @@
  */
 
 limitNumber = (a, b, c) => (a > b && a < c ? a : a > b && a > c ? c : b);
+module.exports = {limitNumber};
