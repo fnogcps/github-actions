@@ -10,3 +10,4 @@
  */
 
 getWord = (a, b) => a[0].toUpperCase() + a.slice(1) + b;
+module.exports = {getWord};
