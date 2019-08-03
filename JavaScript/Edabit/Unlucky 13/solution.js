@@ -9,3 +9,4 @@
  */
 
 unlucky13 = a => a.filter(a => a % 13);
+module.exports = {unlucky13};
