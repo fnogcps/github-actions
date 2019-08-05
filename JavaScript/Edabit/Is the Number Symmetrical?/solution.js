@@ -14,3 +14,5 @@ isSymmetrical = a =>
     .split('')
     .reverse()
     .join('') == a;
+
+module.exports = {isSymmetrical};
