@@ -10,3 +10,4 @@
  */
 
 removeDups = a => [...new Set(a)];
+module.exports = {removeDups};
