@@ -9,3 +9,4 @@
  */
 
 equal = (a, b, c, d = new Set([a, b, c]).size) => (d == 1 ? 3 : d == 3 ? 0 : 2);
+module.exports = {equal};
