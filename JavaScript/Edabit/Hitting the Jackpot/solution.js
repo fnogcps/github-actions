@@ -10,3 +10,4 @@
  */
 
 testJackpot = a => new Set(a).size < 2;
+module.exports = {testJackpot};
