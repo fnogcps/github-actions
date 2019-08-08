@@ -8,4 +8,5 @@
  * github.com/fnogcps
  */
 
-missingNum = a => 55 - a.reduce((a, b) => a + b)
+missingNum = a => 55 - a.reduce((a, b) => a + b);
+module.exports = {missingNum};
