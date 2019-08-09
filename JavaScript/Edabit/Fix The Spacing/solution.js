@@ -15,3 +15,5 @@ correctSpacing = a =>
     .split(' ')
     .filter(a => a.trim())
     .join(' ');
+
+module.exports = {correctSpacing};
