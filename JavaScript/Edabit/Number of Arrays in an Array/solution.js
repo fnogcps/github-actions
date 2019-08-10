@@ -8,3 +8,4 @@
  */
 
 numOfSubbarrays = a => a.filter(a => a.length).length;
+module.exports = {numOfSubbarrays};
