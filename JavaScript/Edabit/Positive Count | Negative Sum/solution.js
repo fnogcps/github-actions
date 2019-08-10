@@ -16,3 +16,5 @@ countPosSumNeg = a =>
         a.filter(a => a < 0).reduce((a, b) => a + b),
       ]
     : [];
+
+module.exports = {countPosSumNeg};
