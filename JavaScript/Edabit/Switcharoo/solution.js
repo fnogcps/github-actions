@@ -18,3 +18,5 @@ flipEndChars = a =>
     : a[0] == a.slice(-1)
     ? "Two's a pair."
     : a.slice(-1) + a.slice(1, -1) + a[0];
+
+module.exports = {flipEndChars};
