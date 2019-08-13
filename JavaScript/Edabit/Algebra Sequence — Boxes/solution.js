@@ -9,3 +9,4 @@
  */
 
 boxSeq = a => (a % 2 ? a + 2 : a);
+module.exports = {boxSeq};
