@@ -18,3 +18,5 @@ splitCode = a => [
     .filter(a => Number.isInteger(+a))
     .join(''),
 ];
+
+module.exports = {splitCode};
