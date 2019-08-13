@@ -15,3 +15,4 @@
  */
 
 flip = a => Math.pow(a, 0) - a;
+module.exports = {flip};
