@@ -12,3 +12,5 @@ counterpartCharCode = a =>
   a == a.toLowerCase()
     ? a.toUpperCase().charCodeAt()
     : a.toLowerCase().charCodeAt();
+
+module.exports = {counterpartCharCode};
