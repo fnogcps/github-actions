@@ -11,3 +11,4 @@
  */
 
 programmers = (a, b, c) => Math.max(a, b, c) - Math.min(a, b, c);
+module.exports = {programmers};
