@@ -9,3 +9,4 @@
  */
 
 uniqueArr = a => [...new Set(a.filter(a => a > 0))];
+module.exports = {uniqueArr};
