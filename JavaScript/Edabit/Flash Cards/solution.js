@@ -27,3 +27,5 @@ flash = ([a, b, c]) => {
       return undefined;
   }
 };
+
+module.exports = {flash};
