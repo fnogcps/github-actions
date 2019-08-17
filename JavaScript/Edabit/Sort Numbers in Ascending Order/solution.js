@@ -9,3 +9,4 @@
  */
 
 sortNumsAscending = a => (a != null ? a.sort((a, b) => a - b) : []);
+module.exports = {sortNumsAscending};
