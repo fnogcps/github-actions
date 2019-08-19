@@ -8,3 +8,4 @@
  */
 
 last = (a, b) => (b > a.length ? 'invalid' : a.slice(a.length - b));
+module.exports = {last};
