@@ -11,3 +11,5 @@
 
 sayHelloBye = (a, b) =>
   (b ? 'Hello ' : 'Bye ') + [...a][0].toUpperCase() + a.slice(1);
+
+module.exports = {sayHelloBye};
