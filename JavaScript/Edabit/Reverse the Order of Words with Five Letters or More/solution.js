@@ -23,3 +23,5 @@ reverse = a =>
         : a,
     )
     .join(' ');
+
+module.exports = {reverse};
