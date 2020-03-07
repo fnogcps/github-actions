@@ -11,7 +11,10 @@ describe('Truthy or Falsy? (unit tests)\n', () => {
   it('[Test 5] Expected: 1', () => assert.strictEqual(e.isTruthy(true), 1));
   it('[Test 6] Expected: 1', () => assert.strictEqual(e.isTruthy({}), 1));
   it('[Test 7] Expected: 1', () =>
-    assert.strictEqual(e.isTruthy(function() {}), 1));
+    assert.strictEqual(
+      e.isTruthy(function() {}),
+      1,
+    ));
   it('[Test 8] Expected: 0', () => assert.strictEqual(e.isTruthy(0), 0));
   it('[Test 9] Expected: 0', () => assert.strictEqual(e.isTruthy(''), 0));
   it('[Test 10] Expected: 0', () => assert.strictEqual(e.isTruthy(null), 0));
