@@ -28,4 +28,7 @@ console.log(
 const filter = peopleList.myFilter(p => p.age > 25 && p.state == 'SP');
 
 console.log('\nAge > 25 and from SP:', filter);
-console.log('Age > 30:', peopleList.myFilter(p => p.age > 30));
+console.log(
+  'Age > 30:',
+  peopleList.myFilter(p => p.age > 30),
+);
