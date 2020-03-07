@@ -1,7 +1,15 @@
----
-
-language: node_js
-node_js: {"8"}
-script:
-  - npm test
-  - npm run cov
+{
+  "language": "node_js",
+  "os": [
+    "linux"
+  ],
+  "node_js": [
+    {
+      "8": null
+    }
+  ],
+  "script": [
+    "npm test",
+    "npm run cov"
+  ]
+}
