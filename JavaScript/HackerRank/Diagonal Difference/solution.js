@@ -1,3 +1,10 @@
+/*
+ * Diagonal Difference - HackerRank
+ *
+ * hackerrank.com/challenges/diagonal-difference
+ * github.com/fnogcps
+ */
+
 function diagonalDifference(arr) {
   let m1 = [],
     m2 = [],
