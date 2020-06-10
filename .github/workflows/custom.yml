@@ -7,9 +7,12 @@ jobs:
     name: A simple job
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/setup-node@v1
+    - uses: actions/checkout@v2
+    - uses: actions/setup-node@v1    
     - name: A simple job \#2
       run: |
         npm install
         npm test
         npm run cov
+      env:
+        CI: true
