@@ -1,0 +1,14 @@
+name: Custom CI
+
+on: [push, pull_request]
+
+jobs:
+  default:
+    name: A simple job
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-node@v1
+      run: |
+        npm install
+        npm test
+        npm run cov
