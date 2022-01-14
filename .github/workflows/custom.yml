@@ -1,18 +1,17 @@
 name: Custom CI
-
-on: [push, pull_request]
-
+on:
+  push:
+    branches:
+      - master
 jobs:
-  default:
+  testCode:
     name: My first job
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - uses: actions/setup-node@v1    
-    - name: npm install, and test
-      run: |
-        npm install
-        npm test
-        npm run cov
-      env:
-        CI: true
+      - uses: actions/checkout@v1
+      - name: 'Install dependencies'
+        run:  npm install
+      - name: 'Run linter'
+        run:  npm test
+      - name: 'Run tests'
+        run:  ./node_modules/.bin/mocha --recursive JavaScript/
