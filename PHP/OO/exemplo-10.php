@@ -2,7 +2,7 @@
 
 /*
   * [PHP] Composição (exercício)
-  * github.com/contatofnog
+  * github.com/fnogcps
 */
 
 class Cavalo {

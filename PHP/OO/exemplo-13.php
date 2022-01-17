@@ -2,7 +2,7 @@
 
 /*
   * [PHP] Abstração (exercício)
-  * github.com/contatofnog
+  * github.com/fnogcps
 */
 
 abstract class Motor {

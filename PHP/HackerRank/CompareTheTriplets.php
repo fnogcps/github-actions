@@ -3,7 +3,7 @@
 /*
   * [HackerRank] Compare the Triplets (exercise)
   * hackerrank.com/challenges/compare-the-triplets
-  * github.com/contatofnog
+  * github.com/fnogcps
 */
 
 $a = [5, 6, 7];

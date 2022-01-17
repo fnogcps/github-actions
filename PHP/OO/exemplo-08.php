@@ -2,7 +2,7 @@
 
 /*
   * [PHP] Tratamento de exceções (exercício)
-  * github.com/contatofnog
+  * github.com/fnogcps
 */
 
 class Mercado {

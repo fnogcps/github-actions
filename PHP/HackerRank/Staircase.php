@@ -3,7 +3,7 @@
 /*
   * [HackerRank] Staircase (exercise)
   * hackerrank.com/challenges/staircase
-  * github.com/contatofnog
+  * github.com/fnogcps
 */
 
 function staircase($n) {

@@ -2,7 +2,7 @@
 
 /*
   * [PHP] Simple Calculator (exercise)
-  * github.com/contatofnog
+  * github.com/fnogcps
 */
 
 function Addition($a, $b) {

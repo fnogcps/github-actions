@@ -3,7 +3,7 @@
 /*
   * [HackerRank] Simple Array Sum (exercise)
   * hackerrank.com/challenges/simple-array-sum
-  * github.com/contatofnog
+  * github.com/fnogcps
 */
 
 $ar = [1, 2, 3, 4, 10, 11];

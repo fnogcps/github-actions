@@ -2,7 +2,7 @@
 
 /*
   * [PHP] File Functions (exercício)
-  * github.com/contatofnog
+  * github.com/fnogcps
 */
 
 $arquivo = '/srv/www/apache/php/FileFunctions.php';

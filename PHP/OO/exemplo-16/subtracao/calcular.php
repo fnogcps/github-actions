@@ -2,7 +2,7 @@
 
 /*
   * [PHP] Namespaces (exercício)
-  * github.com/contatofnog
+  * github.com/fnogcps
 */
 
 namespace Subtracao;

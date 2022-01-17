@@ -2,7 +2,7 @@
 
 /*
   * [PHP] Agregação (exercício)
-  * github.com/contatofnog
+  * github.com/fnogcps
 */
 
 class Animal {

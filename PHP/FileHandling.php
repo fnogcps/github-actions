@@ -2,7 +2,7 @@
 
 /*
   * [PHP] File Handling (exercise)
-  * github.com/contatofnog
+  * github.com/fnogcps
 */
 
 $fp = fopen('test.txt', 'ab');

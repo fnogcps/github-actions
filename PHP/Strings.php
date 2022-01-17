@@ -2,7 +2,7 @@
 
 /*
   * [PHP] Strings (exercise)
-  * github.com/contatofnog
+  * github.com/fnogcps
 */
 
 $str = "word";

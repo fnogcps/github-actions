@@ -2,7 +2,7 @@
 
 /*
   * [PHP] Funções de diretório (exercício)
-  * github.com/contatofnog
+  * github.com/fnogcps
 */
 
 $dir = 'exemplo';

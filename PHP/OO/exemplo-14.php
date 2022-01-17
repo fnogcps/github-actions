@@ -2,7 +2,7 @@
 
 /*
   * [PHP] Herança (exercício)
-  * github.com/contatofnog
+  * github.com/fnogcps
 */
 
 class Pessoa {

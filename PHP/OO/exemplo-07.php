@@ -2,7 +2,7 @@
 
 /*
   * [PHP] Interfaces (exercício)
-  * github.com/contatofnog
+  * github.com/fnogcps
 */
 
 interface Animal {

@@ -2,7 +2,7 @@
 
 /*
   * [PHP] Métodos e atributos estáticos (exercício)
-  * github.com/contatofnog
+  * github.com/fnogcps
 */
 
 class Pessoa {

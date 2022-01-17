@@ -2,7 +2,7 @@
 
 /*
   * [PHP] Modificadores de acesso - Visibilidade (exercício)
-  * github.com/contatofnog
+  * github.com/fnogcps
 */
 
 class Cachorro {

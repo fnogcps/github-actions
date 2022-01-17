@@ -2,7 +2,7 @@
 
 /*
   * [PHP] Superglobals (exercise)
-  * github.com/contatofnog
+  * github.com/fnogcps
 */
 
 $a = 30;

@@ -2,7 +2,7 @@
 
 /*
   * [PHP] Referência e clonagem de objetos (exercício)
-  * github.com/contatofnog
+  * github.com/fnogcps
 */
 
 class Gato {

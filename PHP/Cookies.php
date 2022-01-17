@@ -2,7 +2,7 @@
 
 /*
   * [PHP] Cookies (exercise)
-  * github.com/contatofnog
+  * github.com/fnogcps
 */
 
 if($_COOKIE['name'] == 'Felipe') {
